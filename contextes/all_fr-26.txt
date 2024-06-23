@@ -1,0 +1,112 @@
+   #CreerUnQuestionnaire.fr » Flux CreerUnQuestionnaire.fr » Flux des
+   commentaires CreerUnQuestionnaire.fr » Comment détecter l’ironie dans
+   les questions ouvertes de votre enquête en ligne Flux des commentaires
+   alternate alternate alternate
+--
+--
+          + Me contacter
+
+Comment détecter l’ironie dans les questions ouvertes de votre enquête en
+ligne
+
+--
+--
+   Mis à jour le 10 novembre 2021
+
+   L’ironie aura fait s’arracher des cheveux à des générations de
+   sondeurs… Comment, en effet, savoir si un verbatim (une réponse à une
+   question ouverte) est à prendre au premier ou au second degré ? Que
+--
+--
+   sondeurs… Comment, en effet, savoir si un verbatim (une réponse à une
+   question ouverte) est à prendre au premier ou au second degré ? Que
+   peut-on faire pour gérer l’ironie dans une enquête ? Je réponds dans
+   cet article à deux questions centrales : comment détecter l’ironie, et
+   comment la gérer.
+
+--
+--
+   [wtr-time]
+
+Comment détecter l’ironie dans les questions ouvertes ?
+
+   Vaste question… Imaginons que l’on demande à des clients, après leur
+--
+--
+   suspension ? “Personnel très aimable…” Immédiatement, un doute
+   s’instille dans notre esprit : dois-je prendre cette réponse au premier
+   degré, ou est-ce du sarcasme ?
+
+   Il existe un certain nombre d’indices qui peuvent suggérer qu’une
+--
+--
+       plus de chances d’être ironiques
+     * Le vocabulaire utilisé : des hyperboles, ou au contraire un
+       vocabulaire tout en retenue peuvent suggérer l’ironie
+     * La ponctuation : les points de suspension et points d’exclamation,
+--
+     * La ponctuation : les points de suspension et points d’exclamation,
+       notamment, peuvent être des marques d’ironies
+     * Les emojis : s’ils sont présents, les emojis restent peut-être le
+--
+     * Les emojis : s’ils sont présents, les emojis restent peut-être le
+       meilleur indicateur de la présence d’ironie ou non
+
+   Vous aurez remarqué que je ne parle ici que “d’indices”. Et pour cause
+--
+--
+
+   En conclusion de cette première partie, je répète qu’il est
+   malheureusement impossible de détecter avec certitude l’ironie… Mais
+   alors, comment peut-on la gérer efficacement ? L’outil le plus
+   efficace, de loin, s’applique à la conception de l’enquête.
+--
+--
+   efficace, de loin, s’applique à la conception de l’enquête.
+
+Comment gérer l’ironie dans votre enquête en ligne ?
+
+--
+
+   Le meilleur moyen d’être certain de bien gérer l’ironie… c’est de
+   s’assurer de ne quasiment pas en avoir ! Ainsi, finis les dilemmes :
+   toutes les réponses sont à prendre au premier degré. Mais comment
+--
+--
+
+   Revenons à notre question exemple : “Avez-vous des commentaires sur
+   votre expérience en magasin ?”. Si l’ironie peut poser problème dans
+   cette question, c’est parce qu’elle mêlera, par essence, des réponses
+   positives et négatives. C’est donc à la personne (ou la machine) qui
+--
+--
+
+   En scindant ainsi en deux questions ouvertes distinctes, le problème de
+   l’ironie disparaît, car notre réponse problématique “Personnel très
+   aimable…” prendra tout son sens en fonction de la question à laquelle
+   elle répond !
+--
+--
+   elle répond !
+
+Gestion de l’ironie et expérience utilisateur
+
+   Séparer les points positifs et négatifs facilite énormément la gestion
+--
+--
+
+   Séparer les points positifs et négatifs facilite énormément la gestion
+   des réponses, et pas uniquement sur le plan de l’ironie ! Cependant, on
+   peut légitimement se demander ce qu’il en est du côté des participants.
+   Cette solution ne serait-elle pas trop lourde comparée au bénéfice
+--
+--
+Conclusion
+
+   La gestion de l’ironie est un problème plus complexe qu’il n’y paraît,
+   dans la mesure où il n’existe pas de solution infaillible pour détecter
+--
+   dans la mesure où il n’existe pas de solution infaillible pour détecter
+   l’ironie dans les verbatim (méfiez-vous si on vous soutient le
+   contraire…). La meilleure solution, pour vous, pour vos participants et
+   pour la qualité de vos réponses est à intégrer dès la conception de

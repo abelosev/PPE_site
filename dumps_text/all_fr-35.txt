@@ -1,0 +1,752 @@
+
+   FSU-SNUipp - Site du Syndicat National Unitaire des Instituteurs,
+   Professeurs des Écoles et PEGC, affilié à la FSU
+   (BUTTON) Logo
+   a5a1d269ab4b837e167e4215cfbcd3cf148051e644e93ad2db9c63d1cf5e3dbd
+   (BUTTON) Icon menu
+   a08d2eff7f3521bc8ffee3464f7cef3c48614eb39873781ba08111ca63fda99c
+
+   Menu
+     * (BUTTON) Icon menu
+       a08d2eff7f3521bc8ffee3464f7cef3c48614eb39873781ba08111ca63fda99c
+       Menu
+     *
+     *
+
+   Logo a5a1d269ab4b837e167e4215cfbcd3cf148051e644e93ad2db9c63d1cf5e3dbd
+     * Vers la page Instagram
+     * Vers la page Facebook
+     * Vers le profil Twitter
+     * Vers la chaîne Youtube
+     * Vers les flux RSS
+     * Adhérer à la FSU-SNUIPP Adhérer à la FSU-SNUipp
+
+   Adhérer à la FSU-SNUIPP
+   Icon quit
+   2f361d6d56067579e2ab0a3aa450c39cfef0649e29dc5f400948d9bde944397e
+     * (BUTTON) Actualités
+          + (BUTTON) Syndicales
+               o Mobilisations
+               o Expressions
+               o FSU
+               o Événements
+               o Retraité·es
+          + (BUTTON) Administratives
+               o Carrières et salaires
+          + (BUTTON) Éducatives
+               o L'école et la classe
+               o Chronique littérature jeunesse
+               o Lire sortir, à voir, interviews
+          + (BUTTON) Société
+               o International
+               o Droits des enfants, droits humains
+               o Questions sociales et écologiques
+               o Solidarités.
+     * (BUTTON) Métier
+          + (BUTTON) École
+               o Le système éducatif
+               o La maternelle
+               o L'élémentaire
+               o Le collège
+               o L'éducation prioritaire
+          + (BUTTON) Enseignant
+               o Carrière
+               o Formation
+               o Retraite
+          + (BUTTON) Élève
+               o Vie de l'élève
+               o Besoins éducatifs particuliers
+               o Ecole et familles
+     * (BUTTON) Ressources
+          + Fenêtres Sur Cours
+          + Lu au B.O.
+          + Des outils pour la classe
+          + Du côté de la recherche
+          + Ouvrages Jeunesse
+          + Des liens utiles
+          + Les dossiers de Fenêtres
+          + Lire sortir, à voir, interviews
+     * (BUTTON) Syndicat
+          + Qui sommes-nous ?
+          + La FSU-SNUipp dans les départements
+          + Publications
+          + Salle de presse
+          + Nous contacter
+          + Les instances
+          + Adhérer à la FSU-SNUipp
+          + La FSU
+
+     * directeur
+     * ash
+     * formateur
+     * remplaçant
+     * débutant
+     * psy-en
+     * pegc
+     * aesh
+     * retraité
+
+     * Icon insta
+       a0817c20a289fef8bff913e6628a241b690adbbffbea229a27dacfb6cf1cead1
+       Vers la page Instagram
+     * Icon fb
+       72cc4dbe830ceb58b1558f6e0d8e7538450b35ef354de0f978b560cb752cc1f1
+       Vers la page Facebook
+     * Icon twitter
+       cb0abe1c6382844e97173870be9c941733c45a8e83449773416d0330d0ed33bf
+       Vers le profil Twitter
+     * Icon youtube
+       62fae73e2be7e351194b848cfa604888d1e121d59dc01f2438ef5d49409aa928
+       Vers la chaîne Youtube
+     * Icon flux
+       513cc49e9dd9cced44ebec19e63cd6ed6b866b984552f022ed68fafe4a6f92de
+       Vers les flux RSS
+     * Adhérer à la FSU-SNUIPP Adhérer à la FSU-SNUipp
+
+   Icon quit
+   2f361d6d56067579e2ab0a3aa450c39cfef0649e29dc5f400948d9bde944397e
+     * Icon insta
+       a0817c20a289fef8bff913e6628a241b690adbbffbea229a27dacfb6cf1cead1
+       Vers la page Instagram
+     * Icon fb
+       72cc4dbe830ceb58b1558f6e0d8e7538450b35ef354de0f978b560cb752cc1f1
+       Vers la page Facebook
+     * Icon twitter
+       cb0abe1c6382844e97173870be9c941733c45a8e83449773416d0330d0ed33bf
+       Vers le profil Twitter
+     * Icon youtube
+       62fae73e2be7e351194b848cfa604888d1e121d59dc01f2438ef5d49409aa928
+       Vers la chaîne Youtube
+     * Icon flux
+       513cc49e9dd9cced44ebec19e63cd6ed6b866b984552f022ed68fafe4a6f92de
+       Vers les flux RSS
+     * Adhérer à la FSU-SNUIPP Adhérer à la FSU-SNUipp
+
+     * (BUTTON) Actualités
+          + (BUTTON) Syndicales
+               o Mobilisations
+               o Expressions
+               o FSU
+               o Événements
+               o Retraité·es
+          + (BUTTON) Administratives
+               o Carrières et salaires
+          + (BUTTON) Éducatives
+               o L'école et la classe
+               o Chronique littérature jeunesse
+               o Lire sortir, à voir, interviews
+          + (BUTTON) Société
+               o International
+               o Droits des enfants, droits humains
+               o Questions sociales et écologiques
+               o Solidarités.
+     * (BUTTON) Métier
+          + (BUTTON) École
+               o Le système éducatif
+               o La maternelle
+               o L'élémentaire
+               o Le collège
+               o L'éducation prioritaire
+          + (BUTTON) Enseignant
+               o Carrière
+               o Formation
+               o Retraite
+          + (BUTTON) Élève
+               o Vie de l'élève
+               o Besoins éducatifs particuliers
+               o Ecole et familles
+     * (BUTTON) Ressources
+          + Fenêtres Sur Cours
+          + Lu au B.O.
+          + Des outils pour la classe
+          + Du côté de la recherche
+          + Ouvrages Jeunesse
+          + Des liens utiles
+          + Les dossiers de Fenêtres
+          + Lire sortir, à voir, interviews
+     * (BUTTON) Syndicat
+          + Qui sommes-nous ?
+          + La FSU-SNUipp dans les départements
+          + Publications
+          + Salle de presse
+          + Nous contacter
+          + Les instances
+          + Adhérer à la FSU-SNUipp
+          + La FSU
+
+   76776340 39029 1718308874
+
+   Lire le journal
+
+   N°497 mai 2024
+   Icon quit
+   2f361d6d56067579e2ab0a3aa450c39cfef0649e29dc5f400948d9bde944397e
+   Icon search
+   34bc27b0a47da931c67aadbd8889fc9919deede1ba94094b13e5c2fffc007b6f Icon
+   letter ff5d858a03dfc49b835e758ec5039c33ee823c7f28787127d3c1eea82bb05166
+   Newsletters
+     * Icon insta
+       a0817c20a289fef8bff913e6628a241b690adbbffbea229a27dacfb6cf1cead1
+       Vers la page Instagram
+     * Icon fb
+       72cc4dbe830ceb58b1558f6e0d8e7538450b35ef354de0f978b560cb752cc1f1
+       Vers la page Facebook
+     * Icon twitter
+       cb0abe1c6382844e97173870be9c941733c45a8e83449773416d0330d0ed33bf
+       Vers le profil Twitter
+     * Icon youtube
+       62fae73e2be7e351194b848cfa604888d1e121d59dc01f2438ef5d49409aa928
+       Vers la chaîne Youtube
+     * Icon flux
+       513cc49e9dd9cced44ebec19e63cd6ed6b866b984552f022ed68fafe4a6f92de
+       Vers les flux RSS
+     * Adhérer à la FSU-SNUIPP Adhérer à la FSU-SNUipp
+
+   (BUTTON) Actualités (BUTTON) Métier (BUTTON) Ressources (BUTTON)
+   Syndicat
+   76776340 39029 1718308874
+
+   Lire le journal
+
+   N°497 mai 2024
+   Syndicales
+   Administratives
+   Éducatives
+   Société
+     * Mobilisations
+     * Expressions
+     * FSU
+     * Événements
+     * Retraité·es
+
+     * Carrières et salaires
+
+     * L'école et la classe
+     * Chronique littérature jeunesse
+     * Lire sortir, à voir, interviews
+
+     * International
+     * Droits des enfants, droits humains
+     * Questions sociales et écologiques
+     * Solidarités.
+
+   Derniers articles
+     * Syndicales
+     * Administratives
+     * Éducatives
+     * Société
+
+   (BUTTON) Icon desk banner previous
+   9f8c9a69cc05d9d15aceda338c64227188caca15acf1156d255bfb56b55a2c72
+   Design sans titre%20 %20copie
+
+   L’école fait front : 15 raisons d’aller voter
+
+   La FSU-SNUipp porte un projet pour l’école et la société, elle appelle
+   à aller voter pour le défendre le 30 juin
+
+   | Syndicales | 19.06.24
+   Mobilisons nous 2%20 %20copie
+
+   Dans la rue contre l’extrême droite
+
+   La FSU-SNUipp appelle l’ensemble de la communauté éducative �
+   participer aux mobilisations de ce week-end
+
+   | Syndicales | 14.06.24
+   Fsu snuipp%2c%20se unsa%2c%20snudi fo%2c%20sgen
+   cfdt%2c%20cgt%20educ%e2%80%99action%2c%20sud%20e%cc%81ducation%2c%20sna
+   lc%20%281%29
+
+   Laissez-nous travailler !
+
+   Une intersyndicale demande l'arrêt des évaluations obligatoires
+   imposées
+
+   | Syndicales | 04.06.24
+   25mai%20 %20copie
+
+   Contre le choc des savoirs pour l’école publique
+
+   Syndicats et associations appellent à manifester samedi 25 pour exiger
+   une autre politique éducative
+
+   | Syndicales | 14.05.24
+   Mai
+
+   1er mai 2024 : Toutes et tous dans la rue
+
+   La FSU, avec la CGT et Solidaires, appelle les agentes et agents de la
+   Fonction Publique à manifester
+
+   | Syndicales | 26.04.24
+   (BUTTON) Icon desk banner next
+   43a915b9320152a365dc1f5046fed6b80ca08cf8864bad6ab2eaad9f2e61a819
+   (BUTTON) Icon desk banner previous
+   9f8c9a69cc05d9d15aceda338c64227188caca15acf1156d255bfb56b55a2c72
+   P1020153
+
+   Obligation de réserve et discrétion professionnelle
+
+   Devoir de réserve et discrétion professionnelle : quelles obligations ?
+
+   | Administratives | 14.06.24
+   Aesh%20%20infos%20en%20vrac%201920%20x%201280%20px%29
+
+   AESH : où en sommes-nous ?
+
+   Retour sur l’actualité du métier d’AESH de ces dernières semaines
+
+   | Administratives | 05.06.24
+   Cheques vacances site
+
+   Des prestations méconnues d'action sociale
+
+   Chèques vacances, aide à l'installation des personnels, CESU garde
+   d'enfant : de nombreuses aides méconnues existent !
+
+   | Administratives | 28.05.24
+   Solidarit%c3%a9
+
+   Guide de l'action sociale 2024
+
+   Un vade-mecum de l'ensemble des aides de l'action sociale
+   interministérielle dans la Fonction publique.
+
+   | Administratives | 27.05.24
+   Recul%20sur%20le%20projet%20de%20fusion%20aesh%20%20aed%20%21%20%281920
+   %20x%201280%20px%29
+
+   Abandon du projet de regroupement AESH et AED
+
+   Abandon du projet de fusion AESH-AED, mais continuons de revendiquer de
+   meilleurs salaires et conditions de travail !
+
+   | Administratives | 21.05.24
+   (BUTTON) Icon desk banner next
+   43a915b9320152a365dc1f5046fed6b80ca08cf8864bad6ab2eaad9f2e61a819
+   (BUTTON) Icon desk banner previous
+   9f8c9a69cc05d9d15aceda338c64227188caca15acf1156d255bfb56b55a2c72
+   Rejete 1%20 %20copie
+
+   Des futurs programmes décriés
+
+   Le CSE a voté à 94% contre le projet ministériel
+
+   | Éducatives | 07.06.24
+   Stage
+
+   Enquête stagiaires 2023 : les résultats
+
+   Découvrez les réponses à l’enquête 2022-2023 sur leurs conditions de
+   formation et d’entrée dans le métier
+
+   | Éducatives | 05.06.24
+   Dossier%20mat%204
+
+   OZP “Cultiver le plaisir d’apprendre et d’enseigner”
+
+   Retour sur le séminaire de l’Observatoire des zones prioritaires (OZP)
+
+   | Éducatives | 03.06.24
+   Enquete 1920 x 1280 px 1 1%20 %20copie
+
+   Enquête ULIS : les résultats
+
+   Avec plus de 2300 réponses à son enquête, la FSU-SNUipp dresse un bilan
+   du vécu des personnels d’ULIS
+
+   | Éducatives | 14.05.24
+   Programme%20emc
+
+   Projet de programme d’EMC : retour en arrière
+
+   Une fois de plus, un projet touchant à l'Education nationale qui
+   représente un recul...
+
+   | Éducatives | 25.04.24
+   (BUTTON) Icon desk banner next
+   43a915b9320152a365dc1f5046fed6b80ca08cf8864bad6ab2eaad9f2e61a819
+   (BUTTON) Icon desk banner previous
+   9f8c9a69cc05d9d15aceda338c64227188caca15acf1156d255bfb56b55a2c72
+   Maroc%20site
+
+   Solidarité avec le Maroc
+
+   La FSU-SNUipp relaie l'appel aux dons de Solidarité Laïque pour
+   soutenir les familles victimes du séisme au Maroc.
+
+   | Société | 12.09.23
+   Shutterstock 1856916925
+
+   Soutien au peuple haïtien !
+
+   Le 14 août, un séisme a ravagé Haïti. Le SNUipp-FSU relaie la campagne
+   de Solidarité Laïque en faveur du peuple haïtien.
+
+   | Société | 19.08.21
+   Urgence%20haa%cc%83%c2%afti
+
+   Haïti : la démocratie doit pouvoir éclore
+
+   La FSU s'est adressée au Président pour tirer la sonnette d'alarme sur
+   la situation en Haïti
+
+   | Société | 06.05.21
+   Visuel vert 1920
+
+   Urgence Beyrouth
+
+   Un appel à dons pour soutenir le retour à l'école publique des élèves
+
+   | Société | 15.09.20
+   %c3%a9cole%20burkina
+
+   Les défis de l'éducation dans un Sahel en crise
+
+   La coalition éducation a présenté les résultats de son enquête sur les
+   conditions de scolarisation au Sahel
+
+   | Société | 07.05.19
+   (BUTTON) Icon desk banner next
+   43a915b9320152a365dc1f5046fed6b80ca08cf8864bad6ab2eaad9f2e61a819
+   École
+   Enseignant
+   Élève
+
+   Le système éducatif
+
+   La maternelle
+
+   L'élémentaire
+
+   Le collège
+
+   L'éducation prioritaire
+
+   Carrière
+
+   Formation
+
+   Retraite
+
+   Vie de l'élève
+
+   Besoins éducatifs particuliers
+
+   Ecole et familles
+   Job school edu system
+   8bd384c99ac45c174f5b754e28e4564fee55fa1a92c3e4f2214ed01c16bf7363
+
+   Le système éducatif public est le fruit d’une longue histoire qui a
+   institué une instruction laïque, gratuite et obligatoire, organisée en
+   écoles maternelle, élémentaire et collège avec des cycles et des
+   programmes, revus en 2015-2016.
+   Job school kindergarden
+   054146ce4c22f4704947c05c3da7fa04ba5feb03ced32a58265c10fb299ad423
+
+   Plus de 2 millions d’enfants de 2 à 6 ans sont scolarisés dans cette «
+   école première ». Spécificité française, l’école maternelle joue un
+   rôle essentiel pour la réussite des élèves, notamment les plus
+   fragiles. Elle constitue une étape cruciale dans le développement de
+   l'enfant au moment où les apprentissages langagiers et sociaux, la
+   structuration de l'espace et du temps, une motricité de plus en plus
+   fine, et la découverte des autres et du monde se développent.
+   Job school elementary
+   9153f36f796e749cc47c47be06a7e76e1e6ab9cf3c1b222a877b5e575962634c
+
+   L’école élémentaire publique accueille près de 3,6 millions d’enfants
+   de 6 à 11 ans qui, pour la grande majorité d’entre eux, ont été
+   scolarisés à l’école maternelle. Les apprentissages fondamentaux qui y
+   sont dispensés constituent les fondements des autres apprentissages et
+   leur maîtrise apparaît, de fait, une condition indispensable au bon
+   déroulement des parcours des élèves. Les enseignements leur offrent des
+   entraînements systématiques à la lecture, à l’écriture, à la maîtrise
+   de la langue française et des mathématiques, ainsi que de solides
+   repères culturels. Les élèves en difficulté doivent pouvoir bénéficier
+   d'un enseignement différencié et d'une aide personnalisée si besoin
+   auprès de personnels spécialisés dès que les premières difficultés
+   apparaissent et avant qu’elles ne soient durablement installées.
+   Job school college
+   25122e10c142b8ac4600e87ac755b04b507b73ada137f01335899c0b290e1768
+
+   Après leur cursus élémentaire, les jeunes de 11 à 15 ans sont
+   scolarisés dans les collèges publics. Dans ces établissements, aux
+   classes de la 6e à la 3e s’ajoutent un certain nombre de dispositifs
+   destinés aux élèves à besoins spécifiques ainsi que , parfois, des
+   sections d'enseignement général et professionnel adapté (SEGPA). Depuis
+   2016, de nouveaux programmes sont en vigueur. La mise en place de
+   cycles dont un cycle 3 à cheval sur le collège et l’élémentaire
+   instaurent des instances de concertation entre les personnels des deux
+   champs.
+   Job school priority edu
+   901558df9be0931f903566b96c13ca75173b36f33e2d177761bdb84fd474ca35
+
+   A la rentrée 2022, plus de 1,1 million d’enfants sont scolarisés dans
+   les 6 615 écoles de l’éducation prioritaire. Quarante ans après sa
+   création, la politique d’éducation prioritaire a toujours pour objectif
+   de corriger l’impact des inégalités sociales et économiques sur la
+   réussite scolaire par un renforcement de l’action pédagogique et
+   éducative dans les écoles et établissements des territoires qui
+   rencontrent les plus grandes difficultés sociales. En 2014, de nouveaux
+   principes, une nouvelle cartographie et des mesures spécifiques sont
+   mises en place : scolarisation des moins de trois ans, plus de maitres
+   que de classes, allègement du service d’enseignement pour dégager du
+   temps de travail en équipe en REP+. Des mesures qui allaient dans le
+   bon sens mais qui sans moyens à la hauteur n'ont pas pu atteindre leurs
+   objectifs. Leur détricotage depuis l'élection d'Emmanuel Macron, avec
+   notamment la création de classes dédoublées encadrés par des
+   enseignant·es pris sur le dispositif PDMQC, a pu décourager les
+   équipes, d'autant qu'il s'est accompagné d'une politique éducative très
+   injonctive.
+   Job teachers career
+   b4bdd68bf3af44913c172ece6290c72a8aa6832ebe719cadb710e5964dbbb58a
+
+   Rémunérations, avancement, temps de travail, mobilité… Autant de
+   questions qui sont logiquement au cœur des préoccupations des 350 000
+   enseignantes et enseignants du premier degré en exercice. Quelques
+   éléments essentiels pour se repérer dans l'arsenal de textes et de
+   dispositifs qui réglementent et encadrent la carrière et les droits des
+   personnels.
+   Job teachers training
+   bad0b61f3555dbc1112c1fd461096d3f9c655fe5fb4f31356ee4f6c9d233cb02
+
+   Parce qu’enseigner est un métier qui s’apprend, la formation doit
+   constituer un axe central et solide tout au long de la carrière des
+   enseignants pour leur offrir la garantie partout d’une formation
+   initiale et continue de qualité, quel que soit le niveau exercé. Il
+   reste encore beaucoup de chemin à parcourir…
+   Job teachers retirement
+   f0e6f708a5fbe86cb22dc1b65e941aa00bd942f6a3640072ae36889af10a5790
+
+   Après la création du corps de professeur des écoles et les réformes
+   successives de 2003, 2010 et 2014, 2023 il est devenu difficile de se
+   repérer dans les mécanismes de calcul d'une pension devenus très
+   complexes...
+   Job students life
+   dc138a840261444236083780f0fa93b30320e5ee06e97aedbdfc465924a516ce
+
+   Gratuite et obligatoire de 3 à 16 ans, l'école publique se doit
+   d'accueillir dans de bonnes conditions tous les élèves dans leur
+   diversité et de leur fournir un cadre sécurisant, protecteur et propice
+   aux apprentissages. L'essentiel sur les règles et les dispositifs qui y
+   concourent.
+   Job students particular needs
+   878de260cad077a840c81ea33e3c5a403e6dca282ef3f2937c81df411c83972a
+
+   Scolariser tous les élèves, sans distinction d'origines, de capacités,
+   de particularités, telle est la noble mission de l'école publique. Un
+   objectif qui suppose parfois des dispositifs et des organisations
+   spécifiques dont les principaux sont décrits ici.
+   Job students parents students
+   587db2f2ed59c316342fd4b297f0fd2e94578b4f92470cac76a025d359cd9e7f
+
+   Si la famille « classique » traditionnelle a laissé place à un paysage
+   plus divers, les parents n'en restent pas moins les premiers
+   interlocuteurs et les partenaires incontournables de l'école. Le
+   dialogue avec les enseignant·es et autres professionnels est dans ce
+   cadre une nécessité pour une prise en charge efficace des enfants.
+   Quelques fondamentaux pour faciliter une relation harmonieuse...
+     * Fenêtres Sur Cours
+     * Lu au B.O.
+     * Des outils pour la classe
+     * Du côté de la recherche
+     * Ouvrages Jeunesse
+     * Des liens utiles
+     * Les dossiers de Fenêtres
+     * Lire sortir, à voir, interviews
+
+     * Qui sommes-nous ?
+     * La FSU-SNUipp dans les départements
+     * Publications
+     * Salle de presse
+     * Nous contacter
+     * Les instances
+     * Adhérer à la FSU-SNUipp
+     * La FSU
+
+   INFO
+     * Publications
+     * Neo SNUipp
+     * Nous contacter
+     * Calendrier scolaire
+     * Rémunérations
+     * FSU
+     * Hors de France
+     * Promotions
+     * Adhérer à la FSU-SNUipp
+
+     * directeur
+     * ash
+     * formatrice
+     * remplaçant
+     * débutant
+     * psy-en
+     * pegc
+     * aesh
+     * retraité
+     __________________________________________________________________
+
+   Décoder le sarcasme
+
+   Ressources > Fenêtres sur Cours > N°478 - novembre 2021
+     __________________________________________________________________
+
+     *
+     *
+     *
+     *
+     * Partager
+
+Décoder le sarcasme
+
+   Mis à jour le 04.12.21
+
+   min de lecture
+     *
+     *
+     *
+     *
+     * Partager
+
+   Peut-on éduquer les enfants au sarcasme, utilisation particulière de
+   l'ironie ?
+
+   Le sarcasme, utilisation particulière de l’ironie, visant à la
+   moquerie, et qui peut être mordante et cruelle, est fait de nuances et
+   d’appréciations qui vont au-delà de ce qui est dit littéralement. La
+   littérature de jeunesse y a souvent recours et les enseignants et
+   enseignantes le pratiquent parfois dans les classes : « Quel artiste tu
+   fais ! ». Or, pour décoder le message d’un interlocuteur afin d’en
+   comprendre le sens, différentes compétences linguistiques mais aussi
+   sociocognitives sont mobilisées. Selon certaines études, la
+   compréhension du sarcasme fait appel à des compétences qui se
+   développent seulement à partir de l’âge de 5-6 ans, et dépendent de la
+   complexité du message et d’indices donnés par le contexte, le langage
+   gestuel ou le ton.
+
+Educabilité
+
+   111 enfants âgés de 5 à 6 ans ont participé à une expérimentation
+   canadienne, parue en 2021 dans la Revue canadienne de psychologie
+   expérimentale, afin de voir si une formation pouvait améliorer leur
+   capacité à comprendre le sarcasme. La moitié des enfants a reçu une
+   formation à partir d’une série d’histoires, pour savoir quels indices
+   rechercher (les contrastes, le ton, l’humour), tandis que le groupe «
+   contrôle » s’est contenté de lire une histoire non sarcastique avec le
+   chercheur. Si certains enfants détectent l’humour, la plupart ne
+   perçoivent que le sens « premier » des remarques sarcastiques.
+
+Derrière les mots
+
+   Si les compétences linguistiques ne sont pas fortement corrélées à la
+   compréhension du sarcasme, les résultats de cette étude montrent que
+   différents aspects peuvent en être améliorés par la formation, en
+   particulier le contexte. L’intonation sarcastique du lecteur est une
+   clé de compréhension sans laquelle ils échouent. Trop sensibles
+   émotionnellement jusque vers 9/10 ans, les petits ont tendance �
+   s’identifier à la cible des sarcasmes et à ne pas percevoir l’humour
+   derrière la critique. L’ironie et les jeux de mots sont des pratiques
+   beaucoup plus développées dans les familles des classes supérieures. «
+   On y développe un imaginaire chez l’enfant, on l’habitue aussi à faire
+   la différence entre le vrai et le faux et on le rend attentif aux
+   usages du langage » explique le sociologue Bernard Lahire. Des
+   inégalités d’accès au second degré que l’école peut en partie gommer.
+     __________________________________________________________________
+
+     * Partager sur Facebook
+     * Partager sur Twitter
+
+   Fenêtres sur cours, numéro spécial
+
+   Numéro spécial
+   Dossiers de fenêtres, Tous les dossiers de Fenêtres sur Cours
+
+   Dossiers de fenêtres
+
+   Tous les dossiers de fenêtres sur cours
+
+   Écrire à la rédaction
+   ____________________
+   ____________________
+   ____________________
+   ____________________
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   OK
+
+   Merci de renseigner/corriger les éléments suivants :
+     * votre prénom n'a pas été saisi correctement
+     * votre nom n'a pas été saisi correctement
+     * votre adresse email n'a pas été saisie correctement
+     * le sujet n'a pas été saisi correctement
+     * votre message n'a pas été saisi correctement
+
+   (BUTTON) OK
+
+   Merci de votre message, nous reviendrons vers vous dès que possible
+   Icon back top
+   e26aca727c04a8df380beeb115de6dbccd96dd6134e0aae49d363cb64797dfde Icon
+   back top
+   e26aca727c04a8df380beeb115de6dbccd96dd6134e0aae49d363cb64797dfde
+     * Actualités
+     * Syndicales
+     * Administratives
+     * Éducatives
+     * Société
+
+     * En savoir plus
+     * L'école et son fonctionnement
+     * Le métier d'enseignant
+     * L'élève
+
+     * Raccourcis
+     * Adhérer à la FSU-SNUipp
+     * Rémunérations
+     * Promotions
+     * Calendrier scolaire
+     * Hors de France
+     * Nous contacter
+     * Fenêtres sur cours
+
+     * Newsletter
+     * S'inscrire à la newsletter
+
+     * La FSU-SNUipp, C'est aussi...
+     * Neo SNUipp
+     * FSU
+     * Publications
+
+     * à propos du site
+     * Mentions légales
+     * Politique de confidentialité
+     * Plan du site
+     * Contact
+
+   S'abonner à la newsletter
+   Adhérer à la FSU-SNUipp
+     *
+
+   © 2018 Snuipp - Syndicat national unitaire des instituteurs,
+   professeurs des écoles et PEGC, affilié à la FSU
+
+   Plan du site - Mentions légales - Politique de confidentialité
+
+   Développement | beyowi.com - Design | Emmanuelle Roncin et Beyowi
+   ____________________
+   (BUTTON)
+
+   #salaires #métier #calendrier #scolaire #rythmes #effectifs #temps
+   #academies #conception #TPS #REP #greve #effectifs #medecine #FSC
+   (BUTTON) Rechercher
+
+   © 2018 Snuipp - Syndicat national unitaire des instituteurs,
+   professeurs des écoles et PEGC, affilié à la FSU
+
+   Plan du site - Mentions légales - Politique de confidentialité
+
+   Développement | beyowi.com - Design | Emmanuelle Roncin et Beyowi

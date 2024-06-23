@@ -1,0 +1,334 @@
+   #CreerUnQuestionnaire.fr » Flux CreerUnQuestionnaire.fr » Flux des
+   commentaires CreerUnQuestionnaire.fr » Comment détecter l’ironie dans
+   les questions ouvertes de votre enquête en ligne Flux des commentaires
+   alternate alternate alternate
+
+   CreerUnQuestionnaire.fr CreerUnQuestionnaire.fr
+   (BUTTON) Déplier la navigation
+     * Modèles d’enquêtes
+     * Accompagnement par un expert
+          + Prestation de conseil et de gestion de projet
+          + Assistance à distance
+          + Témoignages
+          + Cas clients
+     * Bonnes pratiques
+          + Concevoir le questionnaire
+          + Obtenir des réponses
+          + Analyser les résultats
+          + Newsletter
+     * 🛒 Boutique
+          + Les articles
+               o Modèles d’enquêtes
+               o Assistance et accompagnement
+          + Mon compte
+          + Panier
+     * A propos
+          + A propos de moi
+          + Me contacter
+
+Comment détecter l’ironie dans les questions ouvertes de votre enquête en
+ligne
+
+Publié par Pierre Simonnin le 10 novembre 202010 novembre 2020
+
+   5
+   (2)
+
+   Mis à jour le 10 novembre 2021
+
+   L’ironie aura fait s’arracher des cheveux à des générations de
+   sondeurs… Comment, en effet, savoir si un verbatim (une réponse à une
+   question ouverte) est à prendre au premier ou au second degré ? Que
+   peut-on faire pour gérer l’ironie dans une enquête ? Je réponds dans
+   cet article à deux questions centrales : comment détecter l’ironie, et
+   comment la gérer.
+
+   [wtr-time]
+
+Comment détecter l’ironie dans les questions ouvertes ?
+
+   Vaste question… Imaginons que l’on demande à des clients, après leur
+   passage en magasin, “Avez-vous des commentaires sur votre expérience en
+   magasin ?”. Si l’on obtient parmi les réponses un commentaire
+   “personnel très aimable”, on a toutes les raisons de le prendre au
+   premier degré. Mais si le commentaire se termine par trois points de
+   suspension ? “Personnel très aimable…” Immédiatement, un doute
+   s’instille dans notre esprit : dois-je prendre cette réponse au premier
+   degré, ou est-ce du sarcasme ?
+
+   Il existe un certain nombre d’indices qui peuvent suggérer qu’une
+   réponse à une question ouverte est ironique ou sarcastique. On peut
+   notamment citer :
+
+Besoin d’aide pour votre enquête ?
+
+   Echangez avec un expert pour répondre à vos questions et propulser
+   votre enquête au niveau supérieur !
+   Je réserve une séance de coaching
+     * Les réponses quantitatives : si un répondant a une note de
+       satisfaction générale très basse, ses commentaires “positifs” ont
+       plus de chances d’être ironiques
+     * Le vocabulaire utilisé : des hyperboles, ou au contraire un
+       vocabulaire tout en retenue peuvent suggérer l’ironie
+     * La ponctuation : les points de suspension et points d’exclamation,
+       notamment, peuvent être des marques d’ironies
+     * Les emojis : s’ils sont présents, les emojis restent peut-être le
+       meilleur indicateur de la présence d’ironie ou non
+
+   Vous aurez remarqué que je ne parle ici que “d’indices”. Et pour cause
+   : il est impossible de savoir avec certitude si une réponse est
+   ironique ou non. Car malheureusement, la Loi de Poe s’applique
+   également aux résultats des enquêtes en ligne… Si les indices ci-dessus
+   peuvent sembler solides, rappelez-vous que chacun a une manière
+   différente de s’exprimer ! Certains s’exprimeront systématiquement en
+   majuscule avec 5 points d’exclamation par phrase sans que cela ait une
+   signification particulière. D’autres exprimeront très sobrement un
+   engouement absolu, ou la pire des frustrations. Même les notes de
+   satisfaction ne sont qu’indicatives, car une enquête ne nous donne
+   toujours qu’une vision partielle et partiale d’un sujet. Un répondant
+   peut très bien être très insatisfait, mais reconnaître tout de même des
+   points positifs : vous ne pouvez pas être certain que ses réponses sont
+   ironiques.
+
+   En conclusion de cette première partie, je répète qu’il est
+   malheureusement impossible de détecter avec certitude l’ironie… Mais
+   alors, comment peut-on la gérer efficacement ? L’outil le plus
+   efficace, de loin, s’applique à la conception de l’enquête.
+
+Comment gérer l’ironie dans votre enquête en ligne ?
+
+   Le meilleur moyen d’être certain de bien gérer l’ironie… c’est de
+   s’assurer de ne quasiment pas en avoir ! Ainsi, finis les dilemmes :
+   toutes les réponses sont à prendre au premier degré. Mais comment
+   fait-on, concrètement ? Tout est dans les questions que l’on pose.
+
+Envie de recevoir des conseils réguliers ?
+
+   loader loader
+
+   Votre prénom*_____________________
+
+   Votre adresse e-mail* ____________________
+
+   NEWSLETTER_C1Q [Hebdomadaire]
+
+   PRODUITS_C1Q [Mensuel]
+
+   CreerUnQuestionnaire
+
+   ____________________
+
+   Je reçois la newsletter
+
+   Revenons à notre question exemple : “Avez-vous des commentaires sur
+   votre expérience en magasin ?”. Si l’ironie peut poser problème dans
+   cette question, c’est parce qu’elle mêlera, par essence, des réponses
+   positives et négatives. C’est donc à la personne (ou la machine) qui
+   traitera les réponses de décider de la polarité de chaque réponse. En
+   bref : le traitement des réponses peut dénaturer ce que les
+   participants ont voulu dire.
+
+   Pour moi, la meilleure solution à ce dilemme, c’est d’imposer la
+   polarité de la question. Si ça peut paraître compliqué présenté comme
+   cela, c’est en réalité très simple en pratique : au lieu d’une question
+   commentaires, on pose deux questions : une sur les points positifs et
+   une sur les points négatifs. Pour ma part, je présente en général cela
+   sous la forme de “points forts” et “points d’amélioration”, qui me
+   semblent être les formulations les plus constructives.
+
+   En scindant ainsi en deux questions ouvertes distinctes, le problème de
+   l’ironie disparaît, car notre réponse problématique “Personnel très
+   aimable…” prendra tout son sens en fonction de la question à laquelle
+   elle répond !
+
+Gestion de l’ironie et expérience utilisateur
+
+   Séparer les points positifs et négatifs facilite énormément la gestion
+   des réponses, et pas uniquement sur le plan de l’ironie ! Cependant, on
+   peut légitimement se demander ce qu’il en est du côté des participants.
+   Cette solution ne serait-elle pas trop lourde comparée au bénéfice
+   qu’elle apporte ? C’est tout le contraire !
+
+   Des questions plus précises, c’est en fait la meilleure pratique pour
+   poser de bonnes questions ouvertes ! En posant deux questions au lieu
+   d’une, vous obtiendrez plus de réponses, plus précises. Mais en plus de
+   cela, vous faciliterez la vie des participants en leur donnant une
+   meilleure idée de ce que vous cherchez à obtenir, et en leur permettant
+   de structurer leur pensée.
+
+Conclusion
+
+   La gestion de l’ironie est un problème plus complexe qu’il n’y paraît,
+   dans la mesure où il n’existe pas de solution infaillible pour détecter
+   l’ironie dans les verbatim (méfiez-vous si on vous soutient le
+   contraire…). La meilleure solution, pour vous, pour vos participants et
+   pour la qualité de vos réponses est à intégrer dès la conception de
+   votre enquête. Car les réponses ne sont jamais meilleures que les
+   questions ! N’hésitez pas si vous avez besoin d’aide dans la conception
+   de votre enquête.
+
+Besoin d’aide pour votre enquête ?
+
+   Echangez avec un expert pour répondre à vos questions et propulser
+   votre enquête au niveau supérieur !
+   Je réserve une séance de coaching
+
+   A0166
+   Photo by JJ Jordan on Unsplash
+
+   Cet article était-il intéressant ?
+     *
+     *
+     *
+     *
+     *
+
+   (BUTTON) Envoyer votre note
+
+   Note moyenne 5 / 5. Nombre de votes : 2
+
+   Pas encore de vote... Soyez le premier à noter cet article !
+
+   Vous avez trouvé cet article intéressant, merci !
+
+   N'hésitez pas à me suivre sur les réseaux sociaux pour voir mes
+   prochains articles 🙂
+
+   Je suis désolé que cet article ne vous ait pas beaucoup intéressé...
+
+   Aidez-moi à l'améliorer !
+
+   Que pourrais-je améliorer dans l'article ?
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   (BUTTON) Envoyer votre retour
+
+Articles similaires
+
+   Catégories : A.3. Formuler les questions
+   Étiquettes : analyseastucesbonnes pratiquesconception de
+   questionnaireenquêteserreursexpérience
+   utilisateurironiequestionnairesquestions
+   ouvertessarcasmesondagesverbatim
+     __________________________________________________________________
+
+Pierre Simonnin
+
+   J'ai conçu et posé une bonne dizaine de milliers de questions depuis
+   2010. A travers ce site, je veux partager mon expertise pour vous aider
+   à réussir vos projets :)
+
+0 commentaire
+
+Laisser un commentaireAnnuler la réponse.
+
+   IFRAME: jetpack_remote_comment
+
+Abonnez-vous pour ne rien manquer !
+
+   loader loader
+
+   Votre prénom*_____________________
+
+   Votre adresse e-mail* ____________________
+
+   NEWSLETTER_C1Q [Hebdomadaire]
+
+   PRODUITS_C1Q [Mensuel]
+
+   CreerUnQuestionnaire
+
+   ____________________
+
+   Je reçois la newsletter
+
+Rechercher sur le site
+
+   Rechercher : ____________________ Rechercher
+
+Articles récents
+
+     * Réussir son questionnaire d’audit en 7 points
+     * Comment gérer une enquête multilingue : les 10 conseils
+       indispensables
+     * Branchements conditionnels : les bonnes pratiques pour des
+       questionnaires qui s’adaptent à vos participants
+
+Catégories
+
+     * A.1. Cadrer l’enquête pour partir sur des bases solides
+     * A.2. Structurer le questionnaire
+     * A.3. Formuler les questions
+     * Actualités
+     * B.1. Préparer l’envoi de l’enquête
+     * B.2. Inviter les participants à répondre
+     * C.1. Avant de regarder les résultats
+     * C.2. Exploiter les résultats
+     * Cas clients
+     * Introduction aux questionnaires
+
+Étiquettes
+
+   actualités analyse astuces baromètres biais bonnes pratiques
+   branchements conditionnels cadrage cas clients cases à cocher cas réels
+   checkbox cible conception de questionnaire covid-19 définition enquête
+   de satisfaction enquêtes enquêtes pulse erreurs expérience utilisateur
+   formulation idées reçues longueur du questionnaire matrices mise en
+   page modèles neutre notation options participants préparation
+   questionnaires questions facultatives questions fermées questions
+   multiples questions obligatoires questions oui/non questions ouvertes
+   résultats sondages survey fatigue types de questions échelles étude de
+   marché
+
+Articles similaires
+
+A.3. Formuler les questions
+
+Réussir son questionnaire d’audit en 7 points
+
+   De nombreux audits (engagement, satisfaction, excellence
+   opérationnelle...) nécessitent un questionnaire aux exigences
+   spécifiques
+
+A.3. Formuler les questions
+
+Quand ajouter une option “non concerné” aux questions de votre enquête en
+ligne ?
+
+   Fondation d'une bonne expérience utilisateur, l'option "non concerné"
+   est pourtant trop rarement utilisée dans les enquêtes en ligne
+
+A.3. Formuler les questions
+
+Note de satisfaction ou de recommandation (NPS) : quelle différence ?
+Laquelle choisir ?
+
+   Mesurer la "satisfaction" ? Pas si simple... En effet, quel indicateur
+   choisir ? Comment formuler la question ? Avec quelle échelle ?
+
+     * Accompagnement
+     * Modèles d’enquêtes
+     * Bonnes pratiques
+     * A propos de moi
+     * Me contacter
+     * Mentions légales
+     * Conditions Générales de Vente
+
+   Hestia | Développé par ThemeIsle
+
+En savoir plus sur CreerUnQuestionnaire.fr
+
+   Abonnez-vous pour poursuivre la lecture et avoir accès à l’ensemble des
+   archives.
+
+   Saisissez votre adresse e-mail�______________________
+
+   (BUTTON) Abonnez-vous
+
+   Continue reading
+
+   (BUTTON)

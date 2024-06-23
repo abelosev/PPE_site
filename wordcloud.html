@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wordcloud - Home</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <img src="./images/header.png" width="100%" style="opacity: 0.9;"/>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="./index.html">Accueil</a>
+                <a class="navbar-item" href="./corpus.html">Corpus</a>
+                <a class="navbar-item" href="./tableaux.html">Tableaux</a>
+                <a class="navbar-item" href="./analyse.html">Analyse</a>
+				<a class="navbar-item" href="./wordcloud.html">Wordcloud</a>
+            </div>
+        </nav>
+    </header>
+    <h1 class="title"><b>Analyse</b></h1>
+    <div class="box">
+		<p>Voici les nuages de mots générés à partir des contextes compilés. Les contextes ont été compilés à l'aide du script <a href="https://github.com/abelosev/PPE_S1/blob/main/programmes/contextes_compil.sh">contextes_compil.sh</a>, et les nuages de mots ont été générés avec <a href="https://github.com/abelosev/PPE_S1/blob/main/wordcloud/wordcl_fr.py">wordcl_fr.py</a> pour le français et <a href="https://github.com/abelosev/PPE_S1/blob/main/wordcloud/wordcl_rus.py">wordcl_rus.py</a> pour le russe.</p>
+	</div>
+	<div class="image-row">
+		<figure class="image">
+			<img src="./wordcloud/ironie_rus.png" alt="Ironie (rus)">
+			<figcaption>Ironie (rus)</figcaption>
+		</figure>
+		<figure class="image">
+			<img src="./wordcloud/sarcasme_rus.png" alt="Sarcasme (rus)">
+			<figcaption>Sarcasme (rus)</figcaption>
+		</figure>
+		<figure class="image">
+			<img src="./wordcloud/all_rus.png" alt="Ironie/sarcasme (rus)">
+			<figcaption>Ironie/sarcasme (rus)</figcaption>
+		</figure>
+    </div>
+    <div class="image-row">
+		<figure class="image">
+			<img src="./wordcloud/ironie_fr.png" alt="Ironie (fr)">
+			<figcaption>Ironie (fr)</figcaption>
+		</figure>
+		<figure class="image">
+			<img src="./wordcloud/sarcasme_fr.png" alt="Sarcasme (fr)">
+			<figcaption>Sarcasme (fr)</figcaption>
+		</figure>
+		<figure class="image">
+			<img src="./wordcloud/all_fr.png" alt="Ironie/sarcasme (fr)">
+			<figcaption>Ironie/sarcasme (fr)</figcaption>
+		</figure>
+    </div>
+</body>
+</html>

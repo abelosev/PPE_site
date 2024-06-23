@@ -1,0 +1,46 @@
+   [INS: :INS]
+
+Ils mettent au point un détecteur de sarcasme sur les réseaux sociaux !
+
+   par Yohan Demeure, expert géographe 19 mai 2021, 13 h 09 min
+--
+--
+
+   Dernièrement, des chercheurs étasuniens ont dévoilé un détecteur de
+   sarcasme à destination des réseaux sociaux. Un jour peut-être, ce genre
+   de travaux pourraient être à l’origine d’une véritable révolution
+   concernant la stratégie de modération des différentes plateformes.
+--
+--
+Identifier des mots repères sarcastiques
+
+   Le sarcasme est une moquerie ironique que l’on peut parfois considérer
+   comme une forme d’ironie « piquante » ou belliqueuse. À l’inverse de
+   l’ironie qui implique de dire le contraire de ce que l’on pense en
+   faisant comprendre que l’on pense le contraire de ce que l’on dit, le
+--
+   faisant comprendre que l’on pense le contraire de ce que l’on dit, le
+   sarcasme va un peu plus loin. En effet, il s’agit de dire le contraire
+   de ce que l’on pense, sans montrer qu’on pense le contraire de ce que
+   l’on dit. Ainsi, lorsqu’une personne tient des propos sarcastiques, il
+--
+--
+   éventuellement trahir l’interlocuteur en question. En revanche,
+   lorsqu’il s’agit d’un commentaire sur les réseaux sociaux, repérer le
+   sarcasme devient bien plus difficile.
+
+   Dans une étude publiée dans la revue Entropy le 26 mars 2021, un duo de
+--
+--
+   Dans une étude publiée dans la revue Entropy le 26 mars 2021, un duo de
+   chercheurs de l’Université de Floride centrale (États-Unis) explique
+   avoir mis au point leur propre détecteur de sarcasme. Ce dernier se
+   destine à un usage sur les réseaux sociaux. Les chercheurs ont indiqué
+   avoir utilisé le deep learning pour mettre au point un système capable
+--
+--
+   selon eux les résultats sont plutôt convaincants. Évidemment,
+   l’intelligence artificielle a encore du travail pour arriver au niveau
+   humain (modérateurs) en ce qui concerne le repérage du sarcasme en
+   ligne. Toutefois, si l’IA atteint un jour un très haut niveau de
+   performance, nul doute que les grands réseaux sociaux s’intéresseront �

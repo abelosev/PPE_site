@@ -1,0 +1,109 @@
+          + MYPE
+
+   sarcasme sarcasme
+
+--
+
+Vous ne comprenez rien au sarcasme ? Ces chercheurs ont créé un détecteur IA
+
+   Nirina R. 17 mai 2024 2 minutes de lecture IA générative, Intelligence
+--
+--
+   artificielle
+
+   Le sarcasme, un élément subtil de la communication humaine, a longtemps
+   échappé à la compréhension des machines. Mais cela pourrait changer
+   grâce à une équipe de chercheurs néerlandais qui a développé un
+--
+--
+   échappé à la compréhension des machines. Mais cela pourrait changer
+   grâce à une équipe de chercheurs néerlandais qui a développé un
+   détecteur de sarcasme basé sur l'intelligence artificielle.
+
+--
+
+   Le sarcasme, souvent vu comme une forme d'esprit complexe et une
+   intelligence élevée, reste difficile à saisir pour les machines. « Nous
+--
+   intelligence élevée, reste difficile à saisir pour les machines. « Nous
+   sommes capables de reconnaître le sarcasme de manière fiable, et nous
+   sommes impatients de développer cela, » a partagé Matt Coler, un
+   chercheur impliqué dans le projet.
+--
+--
+   les intentions cachées derrière les paroles.
+
+   Le sarcasme n'est pas simplement un jeu de mots. Il engage le ton, le
+   contexte, et souvent, l'expression faciale.
+
+--
+--
+   contexte, et souvent, l'expression faciale.
+
+   En ce sens, pour qu'une IA détecte efficacement le sarcasme, elle doit
+   analyser un ensemble complexe de données. Afin que cela soit possible,
+   les chercheurs ont utilisé des extraits de dialogues de séries
+--
+--
+   analyser un ensemble complexe de données. Afin que cela soit possible,
+   les chercheurs ont utilisé des extraits de dialogues de séries
+   télévisées bien connues, où le sarcasme est fréquent.
+
+   IFRAME: https://www.youtube.com/embed/Y--8kVa_Y1w?feature=oembed
+--
+--
+   IFRAME: https://www.youtube.com/embed/Y--8kVa_Y1w?feature=oembed
+
+Le fonctionnement du détecteur de sarcasme
+
+   Pour développer ce détecteur, l'équipe a utilisé une base de données
+--
+--
+
+   Pour développer ce détecteur, l'équipe a utilisé une base de données
+   nommée Mustard, qui comprend des phrases annotées pour le sarcasme
+   issues de sitcoms comme « Friends » et « The Big Bang Theory ».
+
+--
+--
+   Certe, le texte seul offre des indices, mais les chercheurs ont
+   également intégré des analyses audio et vidéo pour capter le ton et les
+   expressions faciales qui accompagnent souvent le sarcasme.
+
+   L'une des scènes clés sur lesquelles l'IA a été formée implique un
+--
+--
+   regarder votre esprit au travail. »
+
+   De la même façon que les humains utilisent le sarcasme dans des
+   interactions quotidiennes, l'IA apprend à reconnaître ces nuances.
+
+--
+--
+
+   Quel que soit le niveau de précision atteint, le fait que l'IA puisse
+   comprendre et réagir au sarcasme est un grand pas en avant.
+
+   Ce progrès pose cependant des questions intéressantes sur l'avenir de
+--
+--
+
+   Comme l'explique Matt Coler, si une IA devient trop bonne pour détecter
+   le sarcasme, cela pourrait modifier la façon dont nous interagissons
+   avec elle.
+
+--
+--
+
+   Sans doute, l'IA a réalisé des progrès impressionnants. Toutefois, à ma
+   connaissance, elle peine à saisir le sarcasme. Pensez-vous que cette
+   nouvelle IA peut vraiment identifier le sarcasme aussi bien que les
+   humains ? N'hésitez pas à partager vos opinions !
+
+--
+--
+
+   Accueil > Intelligence artificielle > Vous ne comprenez rien au
+   sarcasme ? Ces chercheurs ont créé un détecteur IA
+
+Groupe Publithings

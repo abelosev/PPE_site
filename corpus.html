@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Comment le corpus a été constitué - Corpus</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+		<img src="./images/header.png" width="100%" style="opacity: 0.9;"/>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="./index.html">Accueil</a>
+                <a class="navbar-item" href="./corpus.html">Corpus</a>
+                <a class="navbar-item" href="./tableaux.html">Tableaux</a>
+                <a class="navbar-item" href="./analyse.html">Analyse</a>
+				<a class="navbar-item" href="./wordcloud.html">Wordcloud</a>
+            </div>
+        </nav>
+    </header>
+    <h1 class="title"><b>Comment le corpus a été constitué</b></h1>
+    <div class="box">
+        <p>Lors de la constitution de la liste des URL, j'ai utilisé des liens vers des articles dans des magazines en ligne, des blogs et des liens provenant d'agrégateurs de nouvelles: <a href="https://news.google.com">news.google.com</a>,  <a href="https://smi2.ru/">smi2.ru</a>.</p>
+	</div>
+    <div class="box">
+        <p>Au début du travail, je prévoyais de constituer un corpus dont les éléments représenteraient un seul genre - par exemple, article de presse. Cependant, il est rapidement devenu évident que dans la plupart des articles de presse, le mot cible n'était utilisé qu'une seule fois - dans le titre en tant que complément circonstanciel (par exemple, "с иронией", avec l'ironie), ce qui ne nous permettrait pas d'explorer pleinement les cooccurrences aux étapes ultérieures du travail.</p>
+		<p>Pour rechercher des articles en russe, j'ai utilisé le moteur de recherche <a href="https://www.google.fr/">Google</a>, qui, cependant, ne m'a pas permis de constituer un corpus complet, en particulier en ce qui concerne les articles de presse. Plus tard, j'ai également utilisé le moteur de recherche <a href="https://yandex.com/">Yandex</a>, créé en Russie. Les problèmes de recherche d'articles en français étaient principalement dus au fait que la plupart des magazines offrent l'accès au contenu sur abonnement payant.</p>
+    </div>
+	<div class="box">
+		<p>Il convient également de noter que toutes les URL n'ont pas été correctement traitées par l'utilitaire curl (utilisé pour envoyer des requêtes HTTP), probablement en raison du blocage par les serveurs de l'accès aux requêtes automatisées. Après le traitement initial de la liste des URL, j'ai exclu les liens pour lesquels il n'a pas été possible d'obtenir des informations, et j'ai laissé dans les fichiers de listes de liens (et donc dans le tableau HTML) uniquement les URL des sources disponibles.</p><p>Exemple :</p><p><img src="./images/zero_output.png" width="50%"/></p>
+	</div>
+	<div class="box">
+		<p>Pour les raisons mentionnées, j'ai opté pour le contenu des articles et je n'ai pas limité ma sélection aux articles publiés exclusivement ces dernières années, mais j'ai fixé une limite temporelle autour de l'année 2016. Cela a permis d'obtenir un corpus plus diversifié.</p>
+	</div>
+	<div class="box">
+		<p>Après avoir sélectionné les liens, je les ai recomptés et vérifiés pour les doublons de la manière suivante :
+			<pre>
+				➜  URLs git:(main) ✗ wc -l sarcasme_rus.txt
+					  26 sarcasme_rus.txt
+				➜  URLs git:(main) ✗ sort sarcasme_rus.txt | uniq -d
+			</pre>
+		</p>
+	</div>
+	<div class="box">
+		<p>Ainsi, le dossier URLs sur <a href="https://github.com/abelosev/PPE_S1">github</a> contient les fichiers suivants avec des listes de liens pour chaque mot : <b>ironie_rus.txt</b>, <b>ironie_fr.txt</b>, <b>sarcasme_rus.txt</b>,  <b>sarcasme_fr.txt</b>, ainsi que les fichiers <b>all_rus.txt</b> et <b>all_fr.txt</b> avec les listes combinées pour la paire ironie/sarcasme.</p>
+	</div>
+	<div class="box">
+		<p>Voici les <a href="./tableaux.html">tableaux</a> générés à l'aide du script <a href="https://github.com/abelosev/PPE_S1/blob/main/programmes/traitement_url.sh">traitement_url.sh</a>, dans lesquels sont incluses les informations sur les URLs choisies, le code HTML, l'encodage du site et le nombre d'occurrences du mot cible.</p>
+	</div>
+</body>
+</html>

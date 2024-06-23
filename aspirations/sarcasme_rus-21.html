@@ -1,0 +1,1125 @@
+<? php ?>
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#111111">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#111111">
+
+	<script>
+		// получаем активный режим из локального хранилища
+		if (localStorage.theme) {
+			document.documentElement.setAttribute("data-theme", localStorage.theme);
+		}
+		else if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute("data-theme", 'dark');
+		} else {
+			document.documentElement.setAttribute("data-theme", 'light');
+		}
+
+		if (localStorage.advTopClosed) {
+			// Скрываем панель
+			document.documentElement.setAttribute('data-redbarn', 'hidden');
+		}
+	</script>
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- Simple DNS Prefetch -->
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//google-analytics.com' />
+<link rel='dns-prefetch' href='//mc.webvisor.org' />
+<link rel='dns-prefetch' href='//ads.adfox.ru' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Про сарказм без сарказма | BroDude.ru</title>
+	<meta name="description" content="Всё, что ты не знал про сарказм, но боялся спросить. Без сарказма." />
+	<link rel="canonical" href="https://brodude.ru/pro-sarkazm-bez-sarkazma/" />
+	<meta property="og:locale" content="ru_RU" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Про сарказм без сарказма | BroDude.ru" />
+	<meta property="og:description" content="Всё, что ты не знал про сарказм, но боялся спросить. Без сарказма." />
+	<meta property="og:url" content="https://brodude.ru/pro-sarkazm-bez-sarkazma/" />
+	<meta property="og:site_name" content="BroDude.ru" />
+	<meta property="article:publisher" content="https://www.facebook.com/brodude.ru" />
+	<meta property="article:published_time" content="2015-05-05T17:00:19+00:00" />
+	<meta property="article:modified_time" content="2015-05-21T11:44:07+00:00" />
+	<meta property="og:image" content="https://img.brodude.ru/0hy6cpz7zpAtpOQPZJk1HyzUCYYor4znT3T5ANAyFbw/rs:fill:1200:1200:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNS4wNS4yMDE1X2NTZW1EUUVoblZncDMuanBn.jpg" />
+	<meta property="og:image:width" content="600" />
+	<meta property="og:image:height" content="600" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Теодор Седин" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@BroDude_ru" />
+	<meta name="twitter:site" content="@BroDude_ru" />
+	<meta name="twitter:label1" content="Написано автором" />
+	<meta name="twitter:data1" content="Теодор Седин" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/#article","isPartOf":{"@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/"},"author":{"name":"Теодор Седин","@id":"https://brodude.ru/#/schema/person/3cd71d6ec6851f3f023fc078246f1378"},"headline":"Про сарказм без сарказма","datePublished":"2015-05-05T17:00:19+00:00","dateModified":"2015-05-21T11:44:07+00:00","mainEntityOfPage":{"@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/"},"wordCount":782,"commentCount":7,"publisher":{"@id":"https://brodude.ru/#organization"},"image":{"@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/#primaryimage"},"thumbnailUrl":"https://brodude.ru/wp-content/uploads/2015/05/brodude.ru_5.05.2015_cSemDQEhnVgp3.jpg?origin=2015/05/brodude.ru_5.05.2015_cSemDQEhnVgp3.jpg","keywords":["за жизнь"],"articleSection":["Образ жизни"],"inLanguage":"ru-RU","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://brodude.ru/pro-sarkazm-bez-sarkazma/#respond"]}]},{"@type":"WebPage","@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/","url":"https://brodude.ru/pro-sarkazm-bez-sarkazma/","name":"Про сарказм без сарказма | BroDude.ru","isPartOf":{"@id":"https://brodude.ru/#website"},"primaryImageOfPage":{"@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/#primaryimage"},"image":{"@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/#primaryimage"},"thumbnailUrl":"https://brodude.ru/wp-content/uploads/2015/05/brodude.ru_5.05.2015_cSemDQEhnVgp3.jpg?origin=2015/05/brodude.ru_5.05.2015_cSemDQEhnVgp3.jpg","datePublished":"2015-05-05T17:00:19+00:00","dateModified":"2015-05-21T11:44:07+00:00","description":"Всё, что ты не знал про сарказм, но боялся спросить. Без сарказма.","breadcrumb":{"@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/#breadcrumb"},"inLanguage":"ru-RU","potentialAction":[{"@type":"ReadAction","target":["https://brodude.ru/pro-sarkazm-bez-sarkazma/"]}]},{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/#primaryimage","url":"https://brodude.ru/wp-content/uploads/2015/05/brodude.ru_5.05.2015_cSemDQEhnVgp3.jpg?origin=2015/05/brodude.ru_5.05.2015_cSemDQEhnVgp3.jpg","contentUrl":"https://brodude.ru/wp-content/uploads/2015/05/brodude.ru_5.05.2015_cSemDQEhnVgp3.jpg?origin=2015/05/brodude.ru_5.05.2015_cSemDQEhnVgp3.jpg","width":476,"height":290},{"@type":"BreadcrumbList","@id":"https://brodude.ru/pro-sarkazm-bez-sarkazma/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная страница","item":"https://brodude.ru/"},{"@type":"ListItem","position":2,"name":"Про сарказм без сарказма"}]},{"@type":"WebSite","@id":"https://brodude.ru/#website","url":"https://brodude.ru/","name":"BroDude.ru","description":"Мужской журнал BroDude — издание для мужчин, которые стремятся к успеху. Освещаем темы: образ жизни, карьера, бизнес, здоровье, фитнес, отношения, культура, наука.","publisher":{"@id":"https://brodude.ru/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://brodude.ru/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"},{"@type":"Organization","@id":"https://brodude.ru/#organization","name":"BroDude","url":"https://brodude.ru/","logo":{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://brodude.ru/#/schema/logo/image/","url":"https://brodude.ru/wp-content/uploads/2019/12/10/brodude.ru_10.12.2019_9ZLxPm34pSYRz-1200x1200.jpg","contentUrl":"https://brodude.ru/wp-content/uploads/2019/12/10/brodude.ru_10.12.2019_9ZLxPm34pSYRz-1200x1200.jpg","width":1200,"height":1200,"caption":"BroDude"},"image":{"@id":"https://brodude.ru/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/brodude.ru","https://twitter.com/BroDude_ru","https://www.instagram.com/brodude_ru/","http://www.youtube.com/user/dudebadnews"]},{"@type":"Person","@id":"https://brodude.ru/#/schema/person/3cd71d6ec6851f3f023fc078246f1378","name":"Теодор Седин","image":{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://brodude.ru/#/schema/person/image/","url":"https://img.brodude.ru/MoRhYzfgT2PsPW_y3YcsoHCN2_NqhhaE5essKgRw0AQ/rs:fill:96:96:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc","contentUrl":"https://img.brodude.ru/MoRhYzfgT2PsPW_y3YcsoHCN2_NqhhaE5essKgRw0AQ/rs:fill:96:96:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc","caption":"Теодор Седин"},"url":"https://brodude.ru/author/teodor-sedin/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="BroDude.ru &raquo; Лента" href="https://brodude.ru/feed/" />
+<link rel="alternate" type="application/rss+xml" title="BroDude.ru &raquo; Лента комментариев" href="https://brodude.ru/comments/feed/" />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://brodude.ru/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wsl-widget-css' href='https://brodude.ru/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=6.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bro_advert_status_css-css' href='https://brodude.ru/wp-content/plugins/BrodudeAdvertStatus/public/css/bro_advert_status_css.css?ver=1.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='BroAdvertStatus-advert-text-css' href='https://brodude.ru/wp-content/plugins/BrodudeAdvertStatusMetaBox/public/css/BroAdvertStatus-advert-text.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='brodude-theme-css' href='https://brodude.ru/wp-content/themes/brodude2023/assets/css/style.min.css?ver=1715941294' type='text/css' media='all' />
+<script type="text/javascript" src="https://brodude.ru/wp-includes/js/jquery/jquery.min.js?ver=1.11.3" id="jquery-js"></script>
+<script type="text/javascript" id="h_anti_copy_paste-js-extra">
+/* <![CDATA[ */
+var h_anti_copy_paste_localize = ["\u0418\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u0441\u0442\u0430\u0442\u044c\u0438 \u0436\u0443\u0440\u043d\u0430\u043b, \u0443 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u0432\u0441\u0435 \u0432\u043e\u0440\u0443\u044e\u0442 \u0441\u0442\u0430\u0442\u044c\u0438 - BroDude.ru","\u0422\u0435\u043a\u0441\u0442 \u0432\u0437\u044f\u0442 \u0441 \u0448\u0438\u043a\u0430\u0440\u043d\u043e\u0433\u043e BroDude.ru","\u0415\u0441\u043b\u0438 \u0442\u044b \u0447\u0438\u0442\u0430\u0435\u0448\u044c \u044d\u0442\u0443 \u043d\u0430\u0434\u043f\u0438\u0441\u044c, \u0437\u043d\u0430\u0447\u0438\u0442 \u043a\u0442\u043e-\u0442\u043e \u0432\u0437\u044f\u043b \u044d\u0442\u0443 \u0441\u0442\u0430\u0442\u044c\u044e \u0441 BroDude.ru"];
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeAntiCopyPaste/public/js/script.js?ver=1.0.0" id="h_anti_copy_paste-js"></script>
+<meta name="generator" content="BroDude magazine" />
+<meta name="referrer" content="always" /><link rel="amphtml" href="https://brodude.ru/pro-sarkazm-bez-sarkazma/amp/" />
+<link rel="icon" type="image/x-icon" href="https://brodude.ru/wp-content/themes/brodude2023/favicons/favicon.ico" />
+<link rel="shortcut icon" href="https://brodude.ru/wp-content/themes/brodude2023/favicons/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" href="https://img.brodude.ru/XZnhZ4Gp7QEjWCNqXitnBebhiEc2Wg-HwirMDG6uoZg/rs:fill:180:180:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-180x180.jpg">
+<link rel="apple-touch-icon-precomposed" sizes= "76x76" href="https://img.brodude.ru/l0CQFrRkkqtFH9NN_icqZHxn5FsM6GdBUcPpwmxKU4Y/rs:fill:76:76:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-76x76.jpg">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://img.brodude.ru/S9nzlsf_5WVU7IrQ0JE6rFqxqkqThVF59XpNokBSikE/rs:fill:120:120:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-120x120.jpg">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://img.brodude.ru/4bEDR0Jz9THwixBeU6hTWJghBC75DsDTmQpy5bavTvA/rs:fill:152:152:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-152x152.jpg">
+<meta name="msapplication-TileImage" content="https://img.brodude.ru/7PdQqmFuhqfxjJbhCWPrGVUtPJM1QWOsn1miR2ZvH_g/rs:fill:270:270:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-270x270.jpg">
+<meta name="msapplication-TileColor" content="#efefef"><meta name="theme-color" content="#303030"><link rel="icon" href="https://img.brodude.ru/oOQnJQ5wYMn7mRpP9x8YU0NKuBcWk_gLzC7CVrFGbvs/rs:fill:32:32:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://img.brodude.ru/AQnzUhNIWa5IRTXUjI5QcuTVfjkOLopnnuBeEWMzRNM/rs:fill:192:192:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://img.brodude.ru/XZnhZ4Gp7QEjWCNqXitnBebhiEc2Wg-HwirMDG6uoZg/rs:fill:180:180:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://img.brodude.ru/7PdQqmFuhqfxjJbhCWPrGVUtPJM1QWOsn1miR2ZvH_g/rs:fill:270:270:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzA2L2Jyb2R1ZGUucnVfMjcuMDYuMjAxNl8wOE9EdVRlTE1ob3dlLmpwZw?origin=2016/06/brodude.ru_27.06.2016_08ODuTeLMhowe-270x270.jpg" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+</head>
+<script>
+        function includeJs(e){var s=document.createElement("script");s.type="text/javascript",s.src=e,document.body.appendChild(s)}
+        var userAgent = navigator.userAgent.toLowerCase();
+        var gps = /moto g power/.test(userAgent);
+        if (gps!=true) gps = /Lighthouse/.test(userAgent);
+
+    function isMobile() {
+      let check = false;
+      (function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4))) check = true;})(navigator.userAgent||navigator.vendor||window.opera);
+      return check;
+  };
+    </script>
+
+<body class="post-template-default single single-post postid-191603 single-format-standard">
+	<div class="app ">
+		<header class="header">
+			<div class="header__adv header__adv_active" data-adv-top>
+				<div class="header__container header__container_adv">
+					<div class="header__podcast">
+						<svg class="icon header__podcast-icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-microphone"></use>
+						</svg>
+						<span>
+							Слушай подкасты нашей студии
+						</span>
+					</div>
+					<figure class="header__redbarn">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/redbarn_new.svg"><noscript><img src="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/redbarn_new.svg" alt=""></noscript> 
+					</figure>
+					<a href="https://redbarn.ru" class="button go-podcast go-podcast_font_wieght go-podcast_color_white">
+						<span>Слушать</span>
+						<svg class="icon go-podcast__icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-arrow"></use>
+						</svg>
+					</a>
+				</div>
+				<button class="button header__close-adv" data-adv-close>
+					<svg class="icon">
+						<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-close"></use>
+					</svg>
+				</button>
+			</div>
+			<div class="header__container header__container_main">
+				<div class="icon-menu">
+					<span></span>
+				</div>
+
+				<div class="header__logo">
+					<a href="https://brodude.ru/" class="header__logo logo">
+						<svg class="icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-logo"></use>
+						</svg>
+					</a>
+				</div>
+
+				<form data-search-form class="header__search search-form" role="search" method="get" action="https://brodude.ru/">
+    <input type="text" class="input search-form__input" placeholder="Что ищем?" name="s" value="">
+    <button type="submit" class="button search-form__button">Искать</button>
+</form>
+				<div class="header__panel">
+					<div class="choice-theme" data-choice-theme>
+						<button class="button choice-theme__button choice-theme__button_light choice-theme__button_active" data-button-theme-light>
+							<svg class="icon">
+								<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-light"></use>
+							</svg>
+						</button>
+						<div class="choice-theme__switcher">
+							<input type="checkbox" id="switch-theme" class="choice-theme__input" />
+							<label for="switch-theme" class="choice-theme__label"></label>
+						</div>
+						<button class="button choice-theme__button choice-theme__button_dark" data-button-theme-dark>
+							<svg class="icon">
+								<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-dark"></use>
+							</svg>
+						</button>
+					</div>
+					<button class="button" data-search-button>
+						<svg class="icon header__search-icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-search"></use>
+						</svg>
+					</button>
+
+					<button class="button header__login" data-authorization-button><svg class="icon header__login-icon"><use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-user"></use></svg><span>Войти</span></button>
+				</div>
+
+
+			</div>
+		</header>
+
+		<div class="app__page">
+			<div class="brand_top__container">
+				        <div class="common__brand-banner">
+            <div id="adfox_159680770355572381"></div>
+        </div>
+    			</div>
+			<div class="app__container"><aside class="aside app__aside app__aside_left " data-nav-menu>
+
+    <!--Добавил блок с логотипом и бургер меню-->
+    <div class="aside__head">
+        <div class="icon-menu">
+            <span></span>
+        </div>
+        <a href="/" class="header__logo logo">
+            <svg class="icon">
+                <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-logo"></use>
+            </svg>
+        </a>
+    </div>
+    <!--Добавил блок с логотипом и бургер меню-->
+
+    <div class="menu">
+        <h2 class="title title_size_24 title_wight_bold title_color_252525 aside__title menu__title">
+            <svg class="icon">
+                <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-rubric"></use>
+            </svg>
+            <span>Рубрики</span>
+        </h2>
+        <nav>
+
+            <ul class="menu__list menu__list_main"><li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent"><a href="https://brodude.ru/category/advices/" class="menu__link menu__link_main menu__link_active">Образ жизни</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/lf/" class="menu__link menu__link_main">Лайфхак</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/dating/" class="menu__link menu__link_main">Отношения</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/heroes/" class="menu__link menu__link_main">Герои</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/girls/" class="menu__link menu__link_main">Подруги</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/food/" class="menu__link menu__link_main">Еда</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/brolife/" class="menu__link menu__link_main">Фитнес</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/science/" class="menu__link menu__link_main">Наука</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/inventar/" class="menu__link menu__link_main">Инвентарь</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/karera-i-biznes/" class="menu__link menu__link_main">Карьера</a></li>
+<li class="menu__item  menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://brodude.ru/category/culture/" class="menu__link menu__link_main">Культура</a></li>
+</ul>
+
+<ul class="menu__list menu__list_small"><li class="social__item  menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy"><a rel="privacy-policy" href="https://brodude.ru/privacy/" class="menu__link menu__link_small">Соглашения и правила</a></li>
+<li class="social__item  menu-item menu-item-type-post_type menu-item-object-page"><a href="https://brodude.ru/pravoobladatelyam/" class="menu__link menu__link_small">Правообладателям</a></li>
+<li class="social__item  menu-item menu-item-type-post_type menu-item-object-page"><a href="https://brodude.ru/reklamodatelyam/" class="menu__link menu__link_small">Рекламодателям</a></li>
+<li class="social__item  menu-item menu-item-type-post_type menu-item-object-page"><a href="https://brodude.ru/kontakty/" class="menu__link menu__link_small">Контакты</a></li>
+</ul>        </nav>
+
+        
+        <ul class="social">
+            <li>
+                <a href="https://vk.com/brodude" target="_blank" class="button social__link social__link_vk">
+                    <svg class="icon">
+                        <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-vk"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/BroDude_ru" target="_blank" class="button social__link social__link_twitter">
+                    <svg class="icon">
+                        <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="tg://resolve?domain=BroDude_ru" target="_blank" class="button social__link social__link_telegram">
+                    <svg class="icon">
+                        <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-telegram"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+
+<main class="main app__articles app__articles_basic">
+    <section class="article-section article-section_column" data-article="">
+        <div class="article-section__main" >
+            <div class="post-info article-section__info ">
+                <div class="post-info__row post-info__row_panel">
+                    <span class="button button_size_small button_theme_light-brown">Без рубрики</span>
+                                    </div>
+                <div class="post-info__row post-info__row_nums">
+                    <div class="post-info__num post-info__num_theme_black post-info__num_views">
+                        <svg class="icon">
+                            <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-views"></use>
+                        </svg>
+                        <span><div 
+		class='counter-data'  
+		data-counter-id='191603' 
+		></div></span>
+                    </div>
+                    <div class="post-info__num post-info__num_theme_black post-info__num_comments">
+                        <svg class="icon">
+                            <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-comments"></use>
+                        </svg>
+                        <span>7</span>
+                    </div>
+                </div>
+            </div>
+            <article class="article-section__article article">
+                <div class="article__holder ">
+
+                    
+                    <div class="article__head article__head_type_basic ">
+
+                        <div class="article__over">
+    <div class="article__author">
+        <figure class="article__ava">
+            <a href="https://brodude.ru/profile/posts/id-206768/">
+                <img alt='Теодор Седин' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%2050'%3E%3C/svg%3E" data-lazy-srcset='https://img.brodude.ru/TOaZWWtc6THnyZyY-8WxjLC1WSEgE0CC46MBJNOotIU/rs:fill:1536:1536:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1536w, https://img.brodude.ru/o7X1w3EXPURkxb6boGOaZ05G_hh3KQynija2BGw8ZJc/rs:fill:1436:1436:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1436w, https://img.brodude.ru/SJQjYsk3sNlFx-GAKJcllqiNI4A1JBtzjTYH2mZzcGg/rs:fill:1336:1336:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1336w, https://img.brodude.ru/N-HKIia72yZjCS-sB5nTYEoRx-D30D8jjtwjznDBpG4/rs:fill:1236:1236:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1236w, https://img.brodude.ru/BOK4nWryIs0cQ6UYQ5CRk7_iTpXCsh2n3D7OtNHkKFk/rs:fill:1136:1136:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1136w, https://img.brodude.ru/xmE5n8OjX4rvSM8CDB-u4S-e8QV9S2UYbYemLQ4mm4g/rs:fill:1036:1036:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1036w, https://img.brodude.ru/9UR2_Y6pvD5_Rkrbp7Wp0L4fZ94OsDnqpkolxwWcFLk/rs:fill:936:936:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 936w, https://img.brodude.ru/GQXDpnFht-nYHdWiy-OeqdHpg6RHH2h3WBQN7928aMk/rs:fill:836:836:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 836w, https://img.brodude.ru/4Fot5njVsziefZOyIK6k6fueFbRTs3Wcs0biE3FvF3s/rs:fill:736:736:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 736w, https://img.brodude.ru/1EA83ZTWFpAFEK6t-ckWOd3PK_eYT9xhcUQQd55qOEw/rs:fill:636:636:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 636w, https://img.brodude.ru/nSyxBmFuM19j_Zx9Cw4O4NiSLgQoaue4D8x-R7BF8eU/rs:fill:536:536:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 536w, https://img.brodude.ru/xBALT_belsX1yZrasBAY3VH96wIjQu64i5CARiKN6zI/rs:fill:436:436:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 436w, https://img.brodude.ru/fY7MGHJalLoMyk2tYytIPc69qEgh8gz7WQhWOhvKgW4/rs:fill:336:336:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 336w, https://img.brodude.ru/0o2epGCUEmVvo2BC0-zQovjK5bxrR_KWbOcUuApxh5E/rs:fill:236:236:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 236w, https://img.brodude.ru/BjDOsoN7Y1GkmpbfqT-u-8mNK_v1MQa6_ej08rr3WQU/rs:fill:136:136:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 136w, https://img.brodude.ru/GGFwo1xdz3UKMladP8BKchW9hFJAROLjyTBf0P1b5ZA/rs:fill:2048:2048:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 2048w, https://img.brodude.ru/dwiLilMyryQ9mA1DkbvJsG3joh7I6AcHc_JPOjRVKlk/rs:fill:1948:1948:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1948w, https://img.brodude.ru/XYQkSGED386QGd_mzznolW1_FRC1lI_66F4hcLOEXvw/rs:fill:1848:1848:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1848w, https://img.brodude.ru/IPrNQ10W6pKEMJ4eApQOQHAX-TwoGo3Qbt72S_4urzA/rs:fill:1748:1748:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1748w, https://img.brodude.ru/MvJ5XVl2akgrP1rFC-BBMD931rXerUrtZIADPbLF2hc/rs:fill:1648:1648:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1648w, https://img.brodude.ru/TJYcKcObjgonqQeheqh5AHACT62AOKCRKBk0OTPV_s0/rs:fill:1548:1548:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1548w, https://img.brodude.ru/Op0HVWvSshGiue6zGmg69dz3LRGz3TTaOWg0vBJZifU/rs:fill:1448:1448:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1448w, https://img.brodude.ru/8_pZFKvc4nsQAqTFJ9Ykz8SHaHq5LOhUX3xEV17pWxk/rs:fill:1348:1348:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1348w, https://img.brodude.ru/H1yP5a5FEZYaCfXfi1B88OO0-rxCsDKaXm2IqE7psVU/rs:fill:1248:1248:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1248w, https://img.brodude.ru/yNGZcPtuetHVLgQfOFwat6mtjURH1EZDrva2yGWJ_fc/rs:fill:1148:1148:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1148w, https://img.brodude.ru/oMlH60fOkdxW52NMdeaXh2AyUW-t1T3n2jKtia_pLww/rs:fill:1048:1048:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1048w, https://img.brodude.ru/GflTQDowofBwn4jgw7uFudlzaGQDJ-PD6bV7cgHfVsQ/rs:fill:948:948:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 948w, https://img.brodude.ru/VEA-ieEBvN02S6QljbffOu74sEZ8niPfebjktYCAe_k/rs:fill:848:848:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 848w, https://img.brodude.ru/BtEQmUB6BPKQkiSc_qt3uprDwAg_OyLHDwlDQoM1uWc/rs:fill:748:748:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 748w, https://img.brodude.ru/Q1BYXGfZf4-B4ziNQSPJKgDZdD_BUb_n6vWdQEl3lJs/rs:fill:648:648:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 648w, https://img.brodude.ru/S0K6C00lm1Qlw97vjI3Rs3KItioiEnfk_hqO9A3IeRY/rs:fill:548:548:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 548w, https://img.brodude.ru/3Fx98eBnj3b3ZIrsJfVFmPmaPA_3rO8gu30YsB2EpgE/rs:fill:448:448:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 448w, https://img.brodude.ru/hXwJUhM5kus64SeP5koYCmPmeds5zseH2tqM6hEnFJs/rs:fill:348:348:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 348w, https://img.brodude.ru/GXFy2CTEAZzbv3Ql9Eep6rOk8WzXf4NZJk3rPgcn_1g/rs:fill:248:248:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 248w, https://img.brodude.ru/MR1qcXJ2_1vJqckXZJGLr0RocvejcS16WmUxnCVAnQs/rs:fill:148:148:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 148w, https://img.brodude.ru/TEyEEW0h91aR4Oojx7My8QOd3pIsyfb8XbOyJSX7lmY/rs:fill:227:227:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 227w, https://img.brodude.ru/sI9zXAMJWM30CRC2V7OlfcnJgUpOUcRl9_FWNzdybTk/rs:fill:127:127:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 127w, https://img.brodude.ru/4aypInObLj6aAHVcRAlLZSNDAlV5k9zk7Hvl5dGq23o/rs:fill:300:300:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 300w, https://img.brodude.ru/vVc7YlkgoLmJe4Yi3Dk-JUz9iEmS8_HF2xRVreGsRTI/rs:fill:200:200:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 200w, https://img.brodude.ru/t20WSdtmyCSgKdWssFgwpyWRPlvb1XmGweq4FNNIZeY/rs:fill:1024:1024:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1024w, https://img.brodude.ru/bpktE0uQ8lAshWhBY8g7cnzcKNcTtzZzml5rFBPhCI0/rs:fill:924:924:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 924w, https://img.brodude.ru/baj8ihkuc9iWWMEq4sZr3C-56-akMOyOiItSlijdDpQ/rs:fill:824:824:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 824w, https://img.brodude.ru/QWKCS3Mc5CpTBxXHXyd3GXp01e59CGTbCdSabMZUt64/rs:fill:724:724:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 724w, https://img.brodude.ru/DdiH3kuSixxaau5DE6WsdLptaXk37Bn3ZojaiyDv8IA/rs:fill:624:624:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 624w, https://img.brodude.ru/404Rfp7GQTI_rJiJyaM1UXVL1SO1-uvQAdnshdQyXZI/rs:fill:524:524:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 524w, https://img.brodude.ru/2WheAQ7FgClStHsAeEaA-v9cQv3YgXlbonRsdKV79-w/rs:fill:424:424:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 424w, https://img.brodude.ru/ojjXGxZ9aJH_mII1jCSah8FBnr_9TZ67syUmbn3LuwI/rs:fill:324:324:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 324w, https://img.brodude.ru/Y3Z2uPun-gh6Wwty8NPb-fSs1RTC6J1BMJEwMLBlHY4/rs:fill:224:224:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 224w, https://img.brodude.ru/SpfQ7sqj9vBIzn-3ANWPTaZ2eAK5h5CKCL8Da0eKA00/rs:fill:124:124:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 124w, https://img.brodude.ru/88Q6CoGXlzC2vfWL4U7K1t5d6F1yK_tWkXBz9prWEkI/rs:fill:512:512:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 512w, https://img.brodude.ru/gPYFEdDeid-3QomAFDnm-hKHNWs20BU8pmItfqAfjt0/rs:fill:412:412:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 412w, https://img.brodude.ru/rZP5T7SjcsPYOy3p-G7WrcNMaINEG1gfkSkYrC6Bct0/rs:fill:312:312:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 312w, https://img.brodude.ru/noWCveZ4ly_5OYqiK4RuG6KvgWdpAxjeZk0Eli6CR2A/rs:fill:212:212:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 212w, https://img.brodude.ru/jszpXO3CKqN2plOMFxGhEt9Awhj062UOe8_G_sCIMfU/rs:fill:112:112:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 112w, https://img.brodude.ru/5332cRpIsbcJXjAUp1fwbP7psxc0AB9718oDHZerp0o/rs:fill:270:270:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 270w, https://img.brodude.ru/MKgmhIh8moy_W15GMnvgO1ULIgei_vT-0l3BNyT8rLs/rs:fill:170:170:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 170w, https://img.brodude.ru/ufXHUzVan7Y4XrJGwys8Bn0xFZFesb22XubIFd0-950/rs:fill:192:192:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 192w, https://img.brodude.ru/Q_lMtOoDTZy8pXvdMqSc_u0wdoXap5VKMyiAtQ0epIo/rs:fill:180:180:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 180w, https://img.brodude.ru/_TqY4SwTdqgW_iUhKL0gQQmIqLpoHYvmnj-A4txvPgY/rs:fill:152:152:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 152w, https://img.brodude.ru/g2W6yScI1GbzaffN89Mf51iXDKASA-d68KTdnK4yqiE/rs:fill:120:120:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 120w, https://img.brodude.ru/xGOaJJp1-VUUdd7fEgwQ2kW7-H98xkLhOjKYKpgKAsU/rs:fill:76:76:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 76w, https://img.brodude.ru/Ctk-aGAI6mzdr8gLLwj9l_zlk3K7AkH-0q5TnGqF54o/rs:fill:32:32:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 32w, https://img.brodude.ru/sXMUXIozVw9KBdwtnw4U_DQqzabcgve6aDTJrzyHKWQ/rs:fill:1200:1200:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1200w, https://img.brodude.ru/8lpRMvlYxpUBr7ph5o-riLMICeBnEhvE8_gQkMADvuw/rs:fill:1100:1100:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1100w, https://img.brodude.ru/nPtKBih8mVeXZCY6hlqsCQJBaXLSfYZqO56nwmo-wGE/rs:fill:1000:1000:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1000w, https://img.brodude.ru/VlDw2a76nI9tWKNcdoSW1cJ--2TNGbm5ngZTkAbx9Ig/rs:fill:900:900:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 900w, https://img.brodude.ru/yh03D-ZewIAjPE8edDYEeDrU49NcCDYvaD7qZubGOjA/rs:fill:800:800:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 800w, https://img.brodude.ru/Gmx2MlwBx9kNgNVqog7n0NG1JQ0RDL72Qf8KDGIK1WY/rs:fill:700:700:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 700w, https://img.brodude.ru/lfYzL9TFoTwXjI6RiAT7323yjxRC_EXAYka-MQuHivk/rs:fill:600:600:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 600w, https://img.brodude.ru/fKkjcbY4xwCWGeT_eYtfqHNaHPMhyUh0x88txaeYiww/rs:fill:500:500:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 500w, https://img.brodude.ru/6ItYA1pyGcRWFREgWwTiP7D9WaV-UCCCPjRfznPJ7uk/rs:fill:400:400:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 400w' data-lazy-sizes='(max-width: 150px) 100vw, 150px' class='avatar avatar-50 photo author-avatar-img' height='50' width='50'  data-lazy-src="https://brodude.ru/wp-content/uploads/2018/03/brodude.ru_2.03.2018_mqsyEEmmhQGmZ.jpg?origin=2018/03/brodude.ru_2.03.2018_mqsyEEmmhQGmZ.jpg" /><noscript><img alt='Теодор Седин' src='https://brodude.ru/wp-content/uploads/2018/03/brodude.ru_2.03.2018_mqsyEEmmhQGmZ.jpg?origin=2018/03/brodude.ru_2.03.2018_mqsyEEmmhQGmZ.jpg' srcset='https://img.brodude.ru/TOaZWWtc6THnyZyY-8WxjLC1WSEgE0CC46MBJNOotIU/rs:fill:1536:1536:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1536w, https://img.brodude.ru/o7X1w3EXPURkxb6boGOaZ05G_hh3KQynija2BGw8ZJc/rs:fill:1436:1436:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1436w, https://img.brodude.ru/SJQjYsk3sNlFx-GAKJcllqiNI4A1JBtzjTYH2mZzcGg/rs:fill:1336:1336:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1336w, https://img.brodude.ru/N-HKIia72yZjCS-sB5nTYEoRx-D30D8jjtwjznDBpG4/rs:fill:1236:1236:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1236w, https://img.brodude.ru/BOK4nWryIs0cQ6UYQ5CRk7_iTpXCsh2n3D7OtNHkKFk/rs:fill:1136:1136:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1136w, https://img.brodude.ru/xmE5n8OjX4rvSM8CDB-u4S-e8QV9S2UYbYemLQ4mm4g/rs:fill:1036:1036:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1036w, https://img.brodude.ru/9UR2_Y6pvD5_Rkrbp7Wp0L4fZ94OsDnqpkolxwWcFLk/rs:fill:936:936:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 936w, https://img.brodude.ru/GQXDpnFht-nYHdWiy-OeqdHpg6RHH2h3WBQN7928aMk/rs:fill:836:836:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 836w, https://img.brodude.ru/4Fot5njVsziefZOyIK6k6fueFbRTs3Wcs0biE3FvF3s/rs:fill:736:736:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 736w, https://img.brodude.ru/1EA83ZTWFpAFEK6t-ckWOd3PK_eYT9xhcUQQd55qOEw/rs:fill:636:636:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 636w, https://img.brodude.ru/nSyxBmFuM19j_Zx9Cw4O4NiSLgQoaue4D8x-R7BF8eU/rs:fill:536:536:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 536w, https://img.brodude.ru/xBALT_belsX1yZrasBAY3VH96wIjQu64i5CARiKN6zI/rs:fill:436:436:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 436w, https://img.brodude.ru/fY7MGHJalLoMyk2tYytIPc69qEgh8gz7WQhWOhvKgW4/rs:fill:336:336:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 336w, https://img.brodude.ru/0o2epGCUEmVvo2BC0-zQovjK5bxrR_KWbOcUuApxh5E/rs:fill:236:236:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 236w, https://img.brodude.ru/BjDOsoN7Y1GkmpbfqT-u-8mNK_v1MQa6_ej08rr3WQU/rs:fill:136:136:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 136w, https://img.brodude.ru/GGFwo1xdz3UKMladP8BKchW9hFJAROLjyTBf0P1b5ZA/rs:fill:2048:2048:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 2048w, https://img.brodude.ru/dwiLilMyryQ9mA1DkbvJsG3joh7I6AcHc_JPOjRVKlk/rs:fill:1948:1948:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1948w, https://img.brodude.ru/XYQkSGED386QGd_mzznolW1_FRC1lI_66F4hcLOEXvw/rs:fill:1848:1848:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1848w, https://img.brodude.ru/IPrNQ10W6pKEMJ4eApQOQHAX-TwoGo3Qbt72S_4urzA/rs:fill:1748:1748:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1748w, https://img.brodude.ru/MvJ5XVl2akgrP1rFC-BBMD931rXerUrtZIADPbLF2hc/rs:fill:1648:1648:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1648w, https://img.brodude.ru/TJYcKcObjgonqQeheqh5AHACT62AOKCRKBk0OTPV_s0/rs:fill:1548:1548:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1548w, https://img.brodude.ru/Op0HVWvSshGiue6zGmg69dz3LRGz3TTaOWg0vBJZifU/rs:fill:1448:1448:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1448w, https://img.brodude.ru/8_pZFKvc4nsQAqTFJ9Ykz8SHaHq5LOhUX3xEV17pWxk/rs:fill:1348:1348:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1348w, https://img.brodude.ru/H1yP5a5FEZYaCfXfi1B88OO0-rxCsDKaXm2IqE7psVU/rs:fill:1248:1248:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1248w, https://img.brodude.ru/yNGZcPtuetHVLgQfOFwat6mtjURH1EZDrva2yGWJ_fc/rs:fill:1148:1148:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1148w, https://img.brodude.ru/oMlH60fOkdxW52NMdeaXh2AyUW-t1T3n2jKtia_pLww/rs:fill:1048:1048:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1048w, https://img.brodude.ru/GflTQDowofBwn4jgw7uFudlzaGQDJ-PD6bV7cgHfVsQ/rs:fill:948:948:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 948w, https://img.brodude.ru/VEA-ieEBvN02S6QljbffOu74sEZ8niPfebjktYCAe_k/rs:fill:848:848:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 848w, https://img.brodude.ru/BtEQmUB6BPKQkiSc_qt3uprDwAg_OyLHDwlDQoM1uWc/rs:fill:748:748:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 748w, https://img.brodude.ru/Q1BYXGfZf4-B4ziNQSPJKgDZdD_BUb_n6vWdQEl3lJs/rs:fill:648:648:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 648w, https://img.brodude.ru/S0K6C00lm1Qlw97vjI3Rs3KItioiEnfk_hqO9A3IeRY/rs:fill:548:548:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 548w, https://img.brodude.ru/3Fx98eBnj3b3ZIrsJfVFmPmaPA_3rO8gu30YsB2EpgE/rs:fill:448:448:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 448w, https://img.brodude.ru/hXwJUhM5kus64SeP5koYCmPmeds5zseH2tqM6hEnFJs/rs:fill:348:348:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 348w, https://img.brodude.ru/GXFy2CTEAZzbv3Ql9Eep6rOk8WzXf4NZJk3rPgcn_1g/rs:fill:248:248:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 248w, https://img.brodude.ru/MR1qcXJ2_1vJqckXZJGLr0RocvejcS16WmUxnCVAnQs/rs:fill:148:148:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 148w, https://img.brodude.ru/TEyEEW0h91aR4Oojx7My8QOd3pIsyfb8XbOyJSX7lmY/rs:fill:227:227:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 227w, https://img.brodude.ru/sI9zXAMJWM30CRC2V7OlfcnJgUpOUcRl9_FWNzdybTk/rs:fill:127:127:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 127w, https://img.brodude.ru/4aypInObLj6aAHVcRAlLZSNDAlV5k9zk7Hvl5dGq23o/rs:fill:300:300:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 300w, https://img.brodude.ru/vVc7YlkgoLmJe4Yi3Dk-JUz9iEmS8_HF2xRVreGsRTI/rs:fill:200:200:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 200w, https://img.brodude.ru/t20WSdtmyCSgKdWssFgwpyWRPlvb1XmGweq4FNNIZeY/rs:fill:1024:1024:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1024w, https://img.brodude.ru/bpktE0uQ8lAshWhBY8g7cnzcKNcTtzZzml5rFBPhCI0/rs:fill:924:924:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 924w, https://img.brodude.ru/baj8ihkuc9iWWMEq4sZr3C-56-akMOyOiItSlijdDpQ/rs:fill:824:824:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 824w, https://img.brodude.ru/QWKCS3Mc5CpTBxXHXyd3GXp01e59CGTbCdSabMZUt64/rs:fill:724:724:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 724w, https://img.brodude.ru/DdiH3kuSixxaau5DE6WsdLptaXk37Bn3ZojaiyDv8IA/rs:fill:624:624:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 624w, https://img.brodude.ru/404Rfp7GQTI_rJiJyaM1UXVL1SO1-uvQAdnshdQyXZI/rs:fill:524:524:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 524w, https://img.brodude.ru/2WheAQ7FgClStHsAeEaA-v9cQv3YgXlbonRsdKV79-w/rs:fill:424:424:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 424w, https://img.brodude.ru/ojjXGxZ9aJH_mII1jCSah8FBnr_9TZ67syUmbn3LuwI/rs:fill:324:324:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 324w, https://img.brodude.ru/Y3Z2uPun-gh6Wwty8NPb-fSs1RTC6J1BMJEwMLBlHY4/rs:fill:224:224:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 224w, https://img.brodude.ru/SpfQ7sqj9vBIzn-3ANWPTaZ2eAK5h5CKCL8Da0eKA00/rs:fill:124:124:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 124w, https://img.brodude.ru/88Q6CoGXlzC2vfWL4U7K1t5d6F1yK_tWkXBz9prWEkI/rs:fill:512:512:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 512w, https://img.brodude.ru/gPYFEdDeid-3QomAFDnm-hKHNWs20BU8pmItfqAfjt0/rs:fill:412:412:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 412w, https://img.brodude.ru/rZP5T7SjcsPYOy3p-G7WrcNMaINEG1gfkSkYrC6Bct0/rs:fill:312:312:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 312w, https://img.brodude.ru/noWCveZ4ly_5OYqiK4RuG6KvgWdpAxjeZk0Eli6CR2A/rs:fill:212:212:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 212w, https://img.brodude.ru/jszpXO3CKqN2plOMFxGhEt9Awhj062UOe8_G_sCIMfU/rs:fill:112:112:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 112w, https://img.brodude.ru/5332cRpIsbcJXjAUp1fwbP7psxc0AB9718oDHZerp0o/rs:fill:270:270:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 270w, https://img.brodude.ru/MKgmhIh8moy_W15GMnvgO1ULIgei_vT-0l3BNyT8rLs/rs:fill:170:170:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 170w, https://img.brodude.ru/ufXHUzVan7Y4XrJGwys8Bn0xFZFesb22XubIFd0-950/rs:fill:192:192:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 192w, https://img.brodude.ru/Q_lMtOoDTZy8pXvdMqSc_u0wdoXap5VKMyiAtQ0epIo/rs:fill:180:180:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 180w, https://img.brodude.ru/_TqY4SwTdqgW_iUhKL0gQQmIqLpoHYvmnj-A4txvPgY/rs:fill:152:152:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 152w, https://img.brodude.ru/g2W6yScI1GbzaffN89Mf51iXDKASA-d68KTdnK4yqiE/rs:fill:120:120:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 120w, https://img.brodude.ru/xGOaJJp1-VUUdd7fEgwQ2kW7-H98xkLhOjKYKpgKAsU/rs:fill:76:76:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 76w, https://img.brodude.ru/Ctk-aGAI6mzdr8gLLwj9l_zlk3K7AkH-0q5TnGqF54o/rs:fill:32:32:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 32w, https://img.brodude.ru/sXMUXIozVw9KBdwtnw4U_DQqzabcgve6aDTJrzyHKWQ/rs:fill:1200:1200:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1200w, https://img.brodude.ru/8lpRMvlYxpUBr7ph5o-riLMICeBnEhvE8_gQkMADvuw/rs:fill:1100:1100:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1100w, https://img.brodude.ru/nPtKBih8mVeXZCY6hlqsCQJBaXLSfYZqO56nwmo-wGE/rs:fill:1000:1000:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 1000w, https://img.brodude.ru/VlDw2a76nI9tWKNcdoSW1cJ--2TNGbm5ngZTkAbx9Ig/rs:fill:900:900:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 900w, https://img.brodude.ru/yh03D-ZewIAjPE8edDYEeDrU49NcCDYvaD7qZubGOjA/rs:fill:800:800:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 800w, https://img.brodude.ru/Gmx2MlwBx9kNgNVqog7n0NG1JQ0RDL72Qf8KDGIK1WY/rs:fill:700:700:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 700w, https://img.brodude.ru/lfYzL9TFoTwXjI6RiAT7323yjxRC_EXAYka-MQuHivk/rs:fill:600:600:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 600w, https://img.brodude.ru/fKkjcbY4xwCWGeT_eYtfqHNaHPMhyUh0x88txaeYiww/rs:fill:500:500:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 500w, https://img.brodude.ru/6ItYA1pyGcRWFREgWwTiP7D9WaV-UCCCPjRfznPJ7uk/rs:fill:400:400:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzAzL2Jyb2R1ZGUucnVfMi4wMy4yMDE4X21xc3lFRW1taFFHbVouanBn 400w' sizes='(max-width: 150px) 100vw, 150px' class='avatar avatar-50 photo author-avatar-img' height='50' width='50'  /></noscript>            </a>
+        </figure>
+        <a href="https://brodude.ru/profile/posts/id-206768/">
+            <span> Теодор Седин</span>
+        </a>
+    </div>
+    <time datetime="2015-05-05 20:00" class="article__date">5 мая 2015 в 20:00</time>
+</div>
+                        <h1 class="title title_size_40 title_wight_bold title_color_131313 article__main-title">
+                            Про сарказм без сарказма                        </h1>
+
+                        <div class="article__panel">
+                            <div class="share share_hide">
+                                        <ul class="share__list">
+            <li>
+                <button class="button share__button share__button_vk" onclick='window.open("https://vk.com/share.php?url=https%3A%2F%2Fbrodude.ru%2Fpro-sarkazm-bez-sarkazma%2F&title=%D0%9F%D1%80%D0%BE+%D1%81%D0%B0%D1%80%D0%BA%D0%B0%D0%B7%D0%BC+%D0%B1%D0%B5%D0%B7+%D1%81%D0%B0%D1%80%D0%BA%D0%B0%D0%B7%D0%BC%D0%B0", "vk_share", "width=630,height=630"); return false;'>
+                    <span class="share__icon">
+                        <svg class="icon">
+                            <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-vk"></use>
+                        </svg>
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button class="button share__button share__button_telegram" onclick="window.location.href='tg://msg_url?url=https%3A%2F%2Fbrodude.ru%2Fpro-sarkazm-bez-sarkazma%2F'; return false;">
+                    <span class="share__icon">
+                        <svg class="icon">
+                            <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-telegram">
+                            </use>
+                        </svg>
+                    </span>
+                </button>
+            </li>
+        </ul>
+
+                                    </div>
+
+                            <button class="button article__postpone  article__postpone_later article__postpone_postponed" data-postponed="false" data-action="https://brodude.ru/wp-admin/admin-ajax.php?action=add_favorite&post_id=191603">
+                                <svg class="icon">
+                                <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-flag"></use>
+                                </svg>
+                                <span>Читать позже</span>
+                                </button>
+                                                        </div>
+                    </div>
+                </div>
+
+                <div class="article__main article__content ">
+                    <div class="article__text article__text_column article__holder">
+                        <div class="full-image"><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-191729" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201112%20688'%3E%3C/svg%3E" alt="brodude.ru_6.05.2015_XGlv502UQz4c6" width="1112" height="688" data-lazy-srcset="https://img.brodude.ru/kLbxIgh9pwdpjCyImGx3ottn8a8UaJwiDfGSvh-W9as/rs:fill:1012:626:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 1012w, https://img.brodude.ru/46e_B98OrDG_BBSmX7Fr_g4_JxzMWcheWUBxSmxbhXY/rs:fill:912:564:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 912w, https://img.brodude.ru/l4x0FO4V3xDJyH66HWWjCY5Y7cYVleV6QRyfsLPf2eA/rs:fill:812:502:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 812w, https://img.brodude.ru/irkh0maE2QMHrGiJK2KJWzxVAhw2SDRJj5dU1qDolJ0/rs:fill:712:441:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 712w, https://img.brodude.ru/PqvjJ5uGvsoP2hFQpQKJDLH753jN-WVCToGC4uqrGC0/rs:fill:612:379:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 612w, https://img.brodude.ru/yhbm7z4lU_9QopajfpqyVStBWN28-QOEp4c1EKOEnl8/rs:fill:512:317:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 512w, https://img.brodude.ru/Y0lkfAONxM-O-8WR-cRc5sHwbXFA9tmfu7RmiZjZGPc/rs:fill:412:255:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 412w, https://img.brodude.ru/Bjux_9S-wbVAVTXPHXg9L4blk6hlWfH-N3xl2ouwzds/rs:fill:312:193:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 312w, https://img.brodude.ru/Y_dtnrmQiYXWEiCOQxf-4H8jM_hwj1XBCmGNvCyllgA/rs:fill:212:131:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 212w, https://img.brodude.ru/ogxUvXUMUaI4w3FXPD__4TWZLgAOfoZrGWOsZfrW4Sc/rs:fill:112:69:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 112w" data-lazy-sizes="(max-width: 1112px) 100vw, 1112px" data-lazy-src="https://img.brodude.ru/CzyhndtNX0gNCnbDvpsGe1s-TOlo7dU43d26EEYQ46s/rs:fill:1112:688:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn" /><noscript><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-191729" src="https://img.brodude.ru/CzyhndtNX0gNCnbDvpsGe1s-TOlo7dU43d26EEYQ46s/rs:fill:1112:688:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn" alt="brodude.ru_6.05.2015_XGlv502UQz4c6" width="1112" height="688" srcset="https://img.brodude.ru/kLbxIgh9pwdpjCyImGx3ottn8a8UaJwiDfGSvh-W9as/rs:fill:1012:626:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 1012w, https://img.brodude.ru/46e_B98OrDG_BBSmX7Fr_g4_JxzMWcheWUBxSmxbhXY/rs:fill:912:564:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 912w, https://img.brodude.ru/l4x0FO4V3xDJyH66HWWjCY5Y7cYVleV6QRyfsLPf2eA/rs:fill:812:502:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 812w, https://img.brodude.ru/irkh0maE2QMHrGiJK2KJWzxVAhw2SDRJj5dU1qDolJ0/rs:fill:712:441:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 712w, https://img.brodude.ru/PqvjJ5uGvsoP2hFQpQKJDLH753jN-WVCToGC4uqrGC0/rs:fill:612:379:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 612w, https://img.brodude.ru/yhbm7z4lU_9QopajfpqyVStBWN28-QOEp4c1EKOEnl8/rs:fill:512:317:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 512w, https://img.brodude.ru/Y0lkfAONxM-O-8WR-cRc5sHwbXFA9tmfu7RmiZjZGPc/rs:fill:412:255:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 412w, https://img.brodude.ru/Bjux_9S-wbVAVTXPHXg9L4blk6hlWfH-N3xl2ouwzds/rs:fill:312:193:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 312w, https://img.brodude.ru/Y_dtnrmQiYXWEiCOQxf-4H8jM_hwj1XBCmGNvCyllgA/rs:fill:212:131:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 212w, https://img.brodude.ru/ogxUvXUMUaI4w3FXPD__4TWZLgAOfoZrGWOsZfrW4Sc/rs:fill:112:69:0/g:ce/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE1LzA1L2Jyb2R1ZGUucnVfNi4wNS4yMDE1X0N6Mk1Zd3R4RU9GaGsuanBn 112w" sizes="(max-width: 1112px) 100vw, 1112px" /></noscript></div>
+<p>В последнее время сарказм набирает всё большую популярность и становится неотъемлемой частью жизни, как песни Сосо Павлиашвили на армянских и грузинских свадьбах. Все считают себя королями остроумия, однако на деле сарказм – искусство тонкое, а потому не всем дано. Тут важно не просто унизить человека, вылив ему на голову ушат продуктов желудка, а сделать это тонко, искусно. К сожалению, не все это умеют, ещё больше людей сарказма не понимают, а посему после особо тонкого сарказма есть вероятность, что тебя примут за идиота. Но не стоит по этому поводу переживать. Таким даром нужно гордиться. И вот несколько причин.</p>
+<h2>1. Сарказм правит миром</h2>
+<p>Вот, например, наши предки использовали сарказм, чтобы определить разницу между другом и врагом. Да-да, сарказм используется не только ради смеха.<br />
+На самом деле, люди использовали сарказм в качестве важнейшего навыка выживания при формировании отношений и укрепление связей. Как известно, навыками сарказма могут обладать только люди с сильным социальным интеллектом (можешь поставить себе &#171;плюсик&#187; в графе &#171;социальный доминатор&#187;). Все дело в том, что и за общительность, и за сарказм отвечает одна и та же часть мозга – парагиппокампальная извилина. Пока другие люди в племени паниковали при виде опасности, мудрые вожди с помощью юмора заставляли своих подданных успокоиться:</p>
+<p>– Спасайтесь, племя каннибалов! Вождь, что нам делать?!?!?!<br />
+– Я думаю, в данной ситуации таракану хрен приделать.<br />
+– Долбанный юморист! Они же нас всех убьют и сожрут!<br />
+– Ну вот. Вы всё спорите сейчас, на заре человечества, что делать с мёртвыми: <a href="https://brodude.ru/ogon-vs-zemlya/">закапывать или сжигать</a>. А у этих ребят своё мнение, как должен выглядеть человек после смерти.</p>
+<p>Или как-то так. Согласен, не самый лучший пример.<br />
+Есть мнение, что сарказм помогает решить проблемы. А умение решать проблемы – возможно, самое важное умение в арсенале любого вожака.</p>
+<p>Британские учёные считают, что сарказм мог сыграть решающую роль в вопросе появления человеческой цивилизации. Люди, им обладающие, объединяли вокруг себя других членов племени, получали власть и уважение, примерно как Джимми Карр объединяет вокруг себя фанатов. Ведь еще с древних времен юмор позволял людям примириться с несправедливостью внешнего мира. Собственно говоря, &#171;король&#187; сарказма Уинни Черчилль стал столь популярен не только благодаря своим действиям в качестве премьер-министра, но и благодаря острым, как бритва, уму и языку, не притупившимся даже за годы регулярного, ежедневного поглощения декалитров армянского коньяка. Впрочем, про графа Мальборо ты можешь прочесть в отдельной статье.</p>
+<p>Обрати внимание на то, сколько соков выделяют восторженные женщины и сколько одобрительных фраз говорят мужчины, после того как Путин удачно острит на пресс-конференциях, саммитах&#8230; да неважно где. Народ многое прощает лидеру-остряку. Даже невыполненные обещания. Безусловно, мудрый ВВП и его спич-райтеры знают эту старинную тонкую хитрость. Острый язык – один из инструментов долгого правления: и оппозицию на место поставить, и правителя соседнего государства. и не важно каким способом.</p>
+<h2>2. Сарказм охмуряет барышень</h2>
+<p>Нет ничего более сексуального, чем хорошее чувство юмора. Серьезно. Вот тут уж точно без сарказма.</p>
+<p>Очередной специалист в психо/невро/соци/сексологии (выбирай любое, не ошибёшься) установил, что, когда дело доходит до флирта во время знакомства, женщины ценят юмор даже больше стальных мускул, сильно выпирающего из кармана толстого кошелька и всех остальных мужских качеств. Ведь самое главное качество, по идее, всё ещё находится в брюках.<br />
+Именно чувство юмора становится самой важной причиной &#171;случайного&#187; секса. Свои выводы специалист основывает на опросе 60 девушек в возрасте 20-26 лет.</p>
+<p>Да и вообще, подобных исследований – как недушенных Шариковым кошек. На вопрос, что привлекает самку в самце больше всего, большинство дам во всех тестах заявляло, что самый привлекательный и соблазнительный мужчина тот, кто при заурядной внешности обладал незаурядным чувством юмора.</p>
+<h2>3. Сарказм – ключ к успеху</h2>
+<p>Сарказм помогает нам не только найти сексуального партнера, но и преуспеть в карьере. Вот, например, американцы не нашли ничего лучше, чем доказать плюсы сарказма на суровых технарях. 375 студентов инженерных специальностей сначала проверяли на способность отпускать едкие шуточки, а затем проанализировали, как у них на старте сложилась карьера. Оказалось, что саркастичные инженеры больше нравились клиентам, о них лучше отзывались коллеги, и они лучше сосредотачиваются на рабочих процессах.</p>
+<p>Не знаю, как насчёт последнего, да и вряд ли мне понравится архитектор, который будет отпускать в мой адрес едкие шуточки, вместо того чтобы объяснить, почему фундамент обвалился. Но с другой стороны, хороший руководитель должен быть в меру саркастичен, дабы избавляться от слишком назойливых идиотов и решать общественные проблемы. Мы ведь уже разобрали на примере одного очень успешного руководителя, что люди многое прощают саркастичным острословам.</p>
+<p>Но не думай, что на одном только сарказме можно далеко уехать. Важно развивать и другие качества. Было бы неплохо знать, когда острить можно, а когда нельзя. Иначе рассерженные родственники могут не понять твоего сарказма на похоронах в адрес усопшего и как бы случайно столкнуть в яму.</p>
+<p>Вот, собственно говоря, и всё. Теперь твой черёд показать своё остроумие в комментариях или рассказать всем известные факты на тему того, почему народ любит Владимира Владимировича и почему он по-прежнему у власти. Ну, ты понял, да?</p>
+<p>&nbsp;</p>
+                    </div>
+
+                        <div class="article__bottom article__holder">
+                            <div class="share share_hide">
+                                        <ul class="share__list">
+            <li>
+                <button class="button share__button share__button_vk" onclick='window.open("https://vk.com/share.php?url=https%3A%2F%2Fbrodude.ru%2Fpro-sarkazm-bez-sarkazma%2F&title=%D0%9F%D1%80%D0%BE+%D1%81%D0%B0%D1%80%D0%BA%D0%B0%D0%B7%D0%BC+%D0%B1%D0%B5%D0%B7+%D1%81%D0%B0%D1%80%D0%BA%D0%B0%D0%B7%D0%BC%D0%B0", "vk_share", "width=630,height=630"); return false;'>
+                    <span class="share__icon">
+                        <svg class="icon">
+                            <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-vk"></use>
+                        </svg>
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button class="button share__button share__button_telegram" onclick="window.location.href='tg://msg_url?url=https%3A%2F%2Fbrodude.ru%2Fpro-sarkazm-bez-sarkazma%2F'; return false;">
+                    <span class="share__icon">
+                        <svg class="icon">
+                            <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-telegram">
+                            </use>
+                        </svg>
+                    </span>
+                </button>
+            </li>
+        </ul>
+
+                                    </div>
+
+                                                            <ul class="article__tags">
+                                    <li><a href="https://brodude.ru/tag/za-zhizn/" class="button article__tag">за жизнь</a></li>                                </ul>
+                                                        <div class="article__read article-read article-read_bg_light-blue"><h3 class="title title_size_24 title_wight_bold title_color_252525 article-read__title">Читать также:</h3><ul class="article-read__list"><li><a href='https://brodude.ru/4-veshhi-na-kotorye-mozhno-obmenyat-svoi-zavyshennye-ambiczii/' class='article-read__link' >4 вещи, на которые можно обменять свои завышенные амбиции</a></li><li><a href='https://brodude.ru/pochemu-ne-stoit-slishkom-zacziklivatsya-na-svoej-rabote-i-produktivnosti/' class='article-read__link' >Почему не стоит слишком зацикливаться на своей работе и продуктивности</a></li><li><a href='https://brodude.ru/chto-delat-esli-ty-uzhe-vzroslyj-no-vse-eshhe-zastenchivyj/' class='article-read__link' >Что делать если, ты уже взрослый, но все еще застенчивый</a></li><li><a href='https://brodude.ru/8-neprostyh-reshenij-s-kotoryh-nachinayutsya-pozitivnye-peremeny/' class='article-read__link' >8 непростых решений, с которых начинаются позитивные перемены</a></li></ul></div>                        </div>
+
+                </div>
+
+            </article>
+        </div>
+
+                <div class="single__banner">
+            <div id="adfox_157527923177656186"></div>
+        </div>
+    
+        <div class="ask-us article-section__ask">
+    <div class="ask-us__body">
+        <h2 class="title title_size_18 title_wight_bold title_color_131313">
+        Задай вопрос редакции,
+        </h2>
+        <p class="app__text ask-us__text">
+        возможно, мы ответим на него в наших следующих статьях.
+        </p>
+        <button class="button button_size_big button_theme_brown article-section__button" data-button-question>
+            Задать вопрос
+        </button>
+    </div>
+    <svg class="icon ask-us__icon ask-us__icon_size_small">
+        <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-sign"></use>
+    </svg>
+</div>
+
+ 
+                    <div class="article-comments">
+                <div class="article-comments__head">
+    <svg class="icon">
+        <use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-comments"></use>
+    </svg>
+    <h2 class="title title_color_252525 article-comments__title">
+        Комментарии
+    </h2>
+    <span>(7)</span>
+</div>
+
+
+    <div class="article-comments__form">
+        	<div id="respond" class="comment-respond">
+		<form action="https://brodude.ru/wp-comments-post.php" method="post" id="commentform" class="comment-form"><div class="comment-form__text_area"><textarea id="comment" name="comment" maxlength="65525" aria-required="true" ></textarea> </div><div class='comments__fields'>
+
+
+</div><p class="form-submit"><button name="submit" type="submit" id="submit" class="submit article-comments__button"  > Отправить </button> <input type='hidden' name='comment_post_ID' value='191603' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="408a0ac3ad" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="171"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	    </div>
+
+    <div class="comments__list">
+        
+		<div id="comment-wrap-29747" class="comment even thread-even depth-1 comment__article-wrap no-tail parent">
+			<article id="article-comment-29747" class="comment comment__article">
+
+				<div class="comment__head">
+					<div class="comment__user">
+						<figure class="comment__ava">
+								<img alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E" data-lazy-srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async' data-lazy-src="https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc"/><noscript><img alt='' src='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc' srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/></noscript>						</figure>
+						<span class="comment__username">Dasteen </span>
+						<time datetime="2015-05-06T05:56:01+03:00" class="comment__date">
+							06.05.2015 в 05:56						</time>
+					</div>
+				</div>
+
+				<div class="app__text comment__text">
+					<p>Как тут не вспомнить знаменитую Фаину Раневскую с её гениальными высказываними?)</p>
+				</div>
+
+				<div class="comment__panel">
+					<button class="button comment__reply">
+						<svg class="icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-share"></use>
+						</svg>
+
+						<span><a rel='nofollow' class='comment-reply-link'  data-reply-info='{"comment_ID":29747,"comment_parent":0,"comment_depth":1,"max_depth":false}'  href='#article-comment-29747' data-registration='respond' >Ответить</a></span>
+					</button>
+					<div class='comment-vote  no-logged  ' id='com-29747' data-comment-ratig-id='29747'><button data-comment-ratig-type='minus' class='button comment-vote__button' data-comment-ratig-type='plus'></button><span id='com-karma-29747' class='comment-vote__counter comment-vote__counter_positive'><div class='comment_rating-number comment_rating-number-plus'>4</div></span><button data-comment-ratig-type='plus' class='button comment-vote__button comment-vote__button_dec' data-comment-ratig-type='minus'></button></div>				</div>
+			</article>
+	
+		<div id="comment-wrap-31341" class="comment byuser comment-author-alexandr-kislov odd alt depth-2 comment__article-wrap tail children">
+			<article id="article-comment-31341" class="comment comment__article">
+
+				<div class="comment__head">
+					<div class="comment__user">
+						<figure class="comment__ava">
+								<img alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E" data-lazy-srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async' data-lazy-src="https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc"/><noscript><img alt='' src='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc' srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/></noscript>						</figure>
+						<span class="comment__username">Alexandr Kislov </span>
+						<time datetime="2015-07-07T10:58:37+03:00" class="comment__date">
+							07.07.2015 в 10:58						</time>
+					</div>
+				</div>
+
+				<div class="app__text comment__text">
+					<p>А как же Доктор Хаус, Хью Лорри?)</p>
+				</div>
+
+				<div class="comment__panel">
+					<button class="button comment__reply">
+						<svg class="icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-share"></use>
+						</svg>
+
+						<span><a rel='nofollow' class='comment-reply-link'  data-reply-info='{"comment_ID":31341,"comment_parent":29747,"comment_depth":2,"max_depth":true}'  href='#article-comment-31341' data-registration='respond' >Ответить</a></span>
+					</button>
+					<div class='comment-vote  no-logged  ' id='com-31341' data-comment-ratig-id='31341'><button data-comment-ratig-type='minus' class='button comment-vote__button' data-comment-ratig-type='plus'></button><span id='com-karma-31341' class='comment-vote__counter comment-vote__counter_neutral'><div class='comment_rating-number comment_rating-number-null'>0</div></span><button data-comment-ratig-type='plus' class='button comment-vote__button comment-vote__button_dec' data-comment-ratig-type='minus'></button></div>				</div>
+			</article>
+	</div><!-- #comment-## -->
+</div><!-- #comment-## -->
+
+		<div id="comment-wrap-29942" class="comment even thread-odd thread-alt depth-1 comment__article-wrap no-tail children">
+			<article id="article-comment-29942" class="comment comment__article">
+
+				<div class="comment__head">
+					<div class="comment__user">
+						<figure class="comment__ava">
+								<img alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E" data-lazy-srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async' data-lazy-src="https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc"/><noscript><img alt='' src='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc' srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/></noscript>						</figure>
+						<span class="comment__username">КорWin </span>
+						<time datetime="2015-05-13T00:50:43+03:00" class="comment__date">
+							13.05.2015 в 00:50						</time>
+					</div>
+				</div>
+
+				<div class="app__text comment__text">
+					<p>Хорошая статья</p>
+				</div>
+
+				<div class="comment__panel">
+					<button class="button comment__reply">
+						<svg class="icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-share"></use>
+						</svg>
+
+						<span><a rel='nofollow' class='comment-reply-link'  data-reply-info='{"comment_ID":29942,"comment_parent":0,"comment_depth":1,"max_depth":false}'  href='#article-comment-29942' data-registration='respond' >Ответить</a></span>
+					</button>
+					<div class='comment-vote  no-logged  ' id='com-29942' data-comment-ratig-id='29942'><button data-comment-ratig-type='minus' class='button comment-vote__button' data-comment-ratig-type='plus'></button><span id='com-karma-29942' class='comment-vote__counter comment-vote__counter_neutral'><div class='comment_rating-number comment_rating-number-null'>0</div></span><button data-comment-ratig-type='plus' class='button comment-vote__button comment-vote__button_dec' data-comment-ratig-type='minus'></button></div>				</div>
+			</article>
+	</div><!-- #comment-## -->
+
+		<div id="comment-wrap-31226" class="comment byuser comment-author-hekyjlbtyphblu-vasya odd alt thread-even depth-1 comment__article-wrap no-tail children">
+			<article id="article-comment-31226" class="comment comment__article">
+
+				<div class="comment__head">
+					<div class="comment__user">
+						<figure class="comment__ava">
+								<img alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E" data-lazy-srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async' data-lazy-src="https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc"/><noscript><img alt='' src='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc' srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/></noscript>						</figure>
+						<span class="comment__username">HEKYJlbTYPHblU VASYA </span>
+						<time datetime="2015-07-02T20:23:16+03:00" class="comment__date">
+							02.07.2015 в 20:23						</time>
+					</div>
+				</div>
+
+				<div class="app__text comment__text">
+					<p>Ну хорошо, убедили, что нужно развивать парагиппокампальную извилину)<br />
+Может подскажете теперь как конкретно?<br />
+Что почитать ещё, помимо Ильфа-Петрова?</p>
+				</div>
+
+				<div class="comment__panel">
+					<button class="button comment__reply">
+						<svg class="icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-share"></use>
+						</svg>
+
+						<span><a rel='nofollow' class='comment-reply-link'  data-reply-info='{"comment_ID":31226,"comment_parent":0,"comment_depth":1,"max_depth":false}'  href='#article-comment-31226' data-registration='respond' >Ответить</a></span>
+					</button>
+					<div class='comment-vote  no-logged  ' id='com-31226' data-comment-ratig-id='31226'><button data-comment-ratig-type='minus' class='button comment-vote__button' data-comment-ratig-type='plus'></button><span id='com-karma-31226' class='comment-vote__counter comment-vote__counter_neutral'><div class='comment_rating-number comment_rating-number-null'>0</div></span><button data-comment-ratig-type='plus' class='button comment-vote__button comment-vote__button_dec' data-comment-ratig-type='minus'></button></div>				</div>
+			</article>
+	</div><!-- #comment-## -->
+
+		<div id="comment-wrap-31527" class="comment byuser comment-author-svetik-melja even thread-odd thread-alt depth-1 comment__article-wrap no-tail children">
+			<article id="article-comment-31527" class="comment comment__article">
+
+				<div class="comment__head">
+					<div class="comment__user">
+						<figure class="comment__ava">
+								<img alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E" data-lazy-srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async' data-lazy-src="https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc"/><noscript><img alt='' src='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc' srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/></noscript>						</figure>
+						<span class="comment__username">Svetik Melja </span>
+						<time datetime="2015-07-14T13:36:38+03:00" class="comment__date">
+							14.07.2015 в 13:36						</time>
+					</div>
+				</div>
+
+				<div class="app__text comment__text">
+					<p>однажды новый учитель истории пришел знакомится в наш 11 класс.<br />
+-&#8230;..Пгостите но некотогые буквы я не выговагиваю!<br />
+-А можете перечислить те, которые выговагиваете?<br />
+Это был один из сарказмов, который мне припомнили на встрече одноклассников спустя 100 лет. Мне стыдно сейчас  за все, что я тогда выговаривала с места&#8230; Учителя краснели. Дети ржали&#8230;</p>
+				</div>
+
+				<div class="comment__panel">
+					<button class="button comment__reply">
+						<svg class="icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-share"></use>
+						</svg>
+
+						<span><a rel='nofollow' class='comment-reply-link'  data-reply-info='{"comment_ID":31527,"comment_parent":0,"comment_depth":1,"max_depth":false}'  href='#article-comment-31527' data-registration='respond' >Ответить</a></span>
+					</button>
+					<div class='comment-vote  no-logged  ' id='com-31527' data-comment-ratig-id='31527'><button data-comment-ratig-type='minus' class='button comment-vote__button' data-comment-ratig-type='plus'></button><span id='com-karma-31527' class='comment-vote__counter comment-vote__counter_neutral'><div class='comment_rating-number comment_rating-number-null'>0</div></span><button data-comment-ratig-type='plus' class='button comment-vote__button comment-vote__button_dec' data-comment-ratig-type='minus'></button></div>				</div>
+			</article>
+	</div><!-- #comment-## -->
+
+		<div id="comment-wrap-41350" class="comment byuser comment-author-aleksandr-postnikov odd alt thread-even depth-1 comment__article-wrap no-tail children">
+			<article id="article-comment-41350" class="comment comment__article">
+
+				<div class="comment__head">
+					<div class="comment__user">
+						<figure class="comment__ava">
+								<img alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E" data-lazy-srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async' data-lazy-src="https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc"/><noscript><img alt='' src='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc' srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/></noscript>						</figure>
+						<span class="comment__username">Александр Постников </span>
+						<time datetime="2017-01-09T05:36:55+03:00" class="comment__date">
+							09.01.2017 в 05:36						</time>
+					</div>
+				</div>
+
+				<div class="app__text comment__text">
+					<p>За мой школьный сарказм который был чересчур жесток,меня большинство учителей занесло в черный список.&nbsp;</p>
+				</div>
+
+				<div class="comment__panel">
+					<button class="button comment__reply">
+						<svg class="icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-share"></use>
+						</svg>
+
+						<span><a rel='nofollow' class='comment-reply-link'  data-reply-info='{"comment_ID":41350,"comment_parent":0,"comment_depth":1,"max_depth":false}'  href='#article-comment-41350' data-registration='respond' >Ответить</a></span>
+					</button>
+					<div class='comment-vote  no-logged  ' id='com-41350' data-comment-ratig-id='41350'><button data-comment-ratig-type='minus' class='button comment-vote__button' data-comment-ratig-type='plus'></button><span id='com-karma-41350' class='comment-vote__counter comment-vote__counter_neutral'><div class='comment_rating-number comment_rating-number-null'>0</div></span><button data-comment-ratig-type='plus' class='button comment-vote__button comment-vote__button_dec' data-comment-ratig-type='minus'></button></div>				</div>
+			</article>
+	</div><!-- #comment-## -->
+
+		<div id="comment-wrap-42533" class="comment byuser comment-author-aliya_romanova even thread-odd thread-alt depth-1 comment__article-wrap no-tail children">
+			<article id="article-comment-42533" class="comment comment__article">
+
+				<div class="comment__head">
+					<div class="comment__user">
+						<figure class="comment__ava">
+								<img alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2080%2080'%3E%3C/svg%3E" data-lazy-srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async' data-lazy-src="https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc"/><noscript><img alt='' src='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc' srcset='https://img.brodude.ru/fvNYfRv64gdPNx6uy6hnpdQ9Bu3hHtzrWGpWdLlPgUA/rs:fill:80:80:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvcGx1Z2lucy9Ccm9kdWRlUHJvZmlsZS9wdWJsaWMvaW1hZ2VzL2F2YXRhci5qcGc 2x' class='avatar avatar-80 photo' height='80' width='80' decoding='async'/></noscript>						</figure>
+						<span class="comment__username">Алия Романова </span>
+						<time datetime="2017-05-22T16:42:39+03:00" class="comment__date">
+							22.05.2017 в 16:42						</time>
+					</div>
+				</div>
+
+				<div class="app__text comment__text">
+					<p>Люди все время обижаются, хотя и смеются, но все равно рано или позно уходят, потому что страдает их самооценка. С чего вы взяли, что люди будут любить язвительных интеллектуалов сильнее, чем себя самог</p>
+				</div>
+
+				<div class="comment__panel">
+					<button class="button comment__reply">
+						<svg class="icon">
+							<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-share"></use>
+						</svg>
+
+						<span><a rel='nofollow' class='comment-reply-link'  data-reply-info='{"comment_ID":42533,"comment_parent":0,"comment_depth":1,"max_depth":false}'  href='#article-comment-42533' data-registration='respond' >Ответить</a></span>
+					</button>
+					<div class='comment-vote  no-logged  ' id='com-42533' data-comment-ratig-id='42533'><button data-comment-ratig-type='minus' class='button comment-vote__button' data-comment-ratig-type='plus'></button><span id='com-karma-42533' class='comment-vote__counter comment-vote__counter_neutral'><div class='comment_rating-number comment_rating-number-null'>0</div></span><button data-comment-ratig-type='plus' class='button comment-vote__button comment-vote__button_dec' data-comment-ratig-type='minus'></button></div>				</div>
+			</article>
+	</div><!-- #comment-## -->
+    </div>
+
+            </div>
+
+    </section>
+</main>
+
+</div>
+</div>
+</div>
+<div class="overlay"></div>
+
+<div class="popup popup_question" data-popup-question>
+	<div class="popup__wrapper popup__wrapper_question">
+		<div class="popup__body popup__body_question">
+			<div class="popup__content ask-question">
+				<button type="button" class="popup__close  popup__close_active ask-question__close" data-close>
+				</button>
+				<h4 class="title title_size_32 title_wight_bold title_color_131313 ask-question__title">Задай вопрос
+					редакции Вrodude</h4>
+
+				
+<div class="wpcf7 no-js" id="wpcf7-f610511-o1" lang="ru-RU" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/pro-sarkazm-bez-sarkazma/#wpcf7-f610511-o1" method="post" class="wpcf7-form init" aria-label="Контактная форма" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="610511" />
+<input type="hidden" name="_wpcf7_version" value="5.8.6" />
+<input type="hidden" name="_wpcf7_locale" value="ru_RU" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f610511-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="ask-question__form">
+	<div class="ask-question__grid">
+		<label for="question-username" class="ask-question__label">
+			<span class="ask-question__text ask-question__text_required">Имя</span>
+                        <span class="wpcf7-form-control-wrap" data-name="text-19"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input" aria-required="true" aria-invalid="false" value="" type="text" name="text-19" /></span>
+		</label>
+
+		<label for="question-usermail" class="ask-question__label">
+			<span class="ask-question__text ask-question__text_required">E-mail</span>
+                  <span class="wpcf7-form-control-wrap" data-name="email-560"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email input" aria-required="true" aria-invalid="false" value="" type="email" name="email-560" /></span>
+		</label>
+
+		<label for="question-theme" class="ask-question__label ask-question__label_full">
+			<span class="ask-question__text">Тема</span>
+			<span class="wpcf7-form-control-wrap" data-name="text-20"><input size="40" class="wpcf7-form-control wpcf7-text input" aria-invalid="false" value="" type="text" name="text-20" /></span>
+		</label>
+
+		<label for="question" class="ask-question__label ask-question__label_full">
+			<span class="ask-question__text">Вопрос</span>
+                 <span class="wpcf7-form-control-wrap" data-name="textarea-64"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea textarea ask-question__textarea" aria-invalid="false" name="textarea-64"></textarea></span>
+		</label>
+	</div>
+
+	<label class="ask-question__label ask-question__label_person-data">
+		<span>Я даю согласие на обработку <a href="/privacy/">персональных данных</a></span>
+		<input type="checkbox" checked>
+		<span class="ask-question__checkmark"></span>
+	</label>
+<input class="wpcf7-form-control wpcf7-submit has-spinner button button_theme_blue ask-question__button" type="submit" value="Отправить" />
+</div><p style="display: none !important;"><label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="_wpcf7_ak_js" value="30"/><script>document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popup popup_authorization" data-popup-authorization>
+	<div class="popup__wrapper">
+		<div class="popup__body popup__body_authorization">
+			<div class="popup__content popup__content_authorization">
+				<button data-close type="button" class="popup__close popup__close_authorization popup__close_active">
+				</button>
+				<div class="authorization authorization_active" data-authorization-form>
+					<h4 class="title title_size_32 title_wight_bold title_color_131313 authorization__title">Вход</h4>
+					<span class="authorization__text">Авторизоваться через соцсети</span>
+					
+<!--
+	wsl_render_auth_widget
+	WordPress Social Login 3.0.3.
+	http://wordpress.org/plugins/wordpress-social-login/
+-->
+
+<style type="text/css">
+#wp-social-login-connect-with{font-weight: bold}#wp-social-login-connect-options{padding:10px}#wp-social-login-connect-options a{text-decoration: none}#wp-social-login-connect-options img{border:0 none}.wsl_connect_with_provider{}.wp-social-login-provider-list .wp-social-login-provider.wp-social-login-provider-vkontakte{background: url(https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/vk_logo.svg) center no-repeat;background-position: center !important;background-size: 30px}.wp-social-login-provider-list{justify-content: flex-start !important;padding-left: 0}.wp-social-login-provider{border: 1px solid #ebebeb;height: 3rem;-webkit-box-flex: 0;-ms-flex: 0 0 calc(33.333% - 1rem);flex: 0 0 calc(33.333% - 1rem);border-radius: 4px;color: transparent;padding: 6px 5px;display: inline-block}</style>
+
+<div class="wp-social-login-widget">
+
+	<div class="wp-social-login-connect-with"></div>
+
+	<div class="wp-social-login-provider-list">
+
+		<a rel="nofollow" href="https://brodude.ru/wp-login.php?action=wordpress_social_authenticate&#038;mode=login&#038;provider=Vkontakte&#038;redirect_to=https%3A%2F%2Fbrodude.ru%2Fpro-sarkazm-bez-sarkazma%2F" title="Connect with ВКонтакте" class="wp-social-login-provider wp-social-login-provider-vkontakte" data-provider="Vkontakte" role="button">
+			ВКонтакте
+		</a>
+
+	</div>
+
+	<div class="wp-social-login-widget-clearing"></div>
+
+</div>
+
+<!-- wsl_render_auth_widget -->
+
+					<!-- <div class="authorization__socials">
+						<button class="button authorization__social authorization__social_vk">
+							<svg class="icon">
+								<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-vk"></use>
+							</svg>
+						</button>
+					</div> -->
+					<form id="login-form" class="authorization__form ">
+						<label for="login" class="authorization__label authorization__label_login">
+							<span class="authorization__text">Логин или E-mail</span>
+							<input type="text" id="login" name="username" placeholder="user@brodude.ru" class="input">
+						</label>
+						<label for="password" class="authorization__label authorization__label_password">
+							<span class="authorization__text">Пароль</span>
+							<span class="authorization__icon-password authorization__icon-password_hide">
+								<svg class="icon">
+									<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-show-password"></use>
+								</svg>
+							</span>
+							<input type="password" name="password" id="password" placeholder="••••••••••" class="input">
+						</label>
+						<label class="authorization__label authorization__label_person-data">
+							<p>Я даю согласие на обработку <a target="_blank" href="/privacy/">персональных данных</a></p>
+							<input id="acceptance" type="checkbox" checked>
+							<span class="authorization__checkmark"></span>
+						</label>
+						<button type="button" id="login-submit" class="button authorization__send">Войти</button>
+					</form>
+
+					<div id="login-message"></div>
+
+					<div class="authorization__bottom">
+						<button class="authorization__button authorization__button_theme_gray" data-recovery-button>Забыли пароль?</button>
+						<button class="authorization__button authorization__button_theme_blue" data-register-button>Регистрация</button>
+					</div>
+				</div>
+				<!--Регистрация-->
+				<div class="authorization" data-register-form>
+					<h4 class="title title_size_32 title_wight_bold title_color_131313 authorization__title">Регистрация
+					</h4>
+					<form class="authorization__form ">
+						<label for="register-login" class="authorization__label authorization__label_login">
+							<span class="authorization__text">Имя пользователя</span>
+							<input type="text" id="register-login" placeholder="Petr" class="input">
+						</label>
+						<label for="register-email" class="authorization__label authorization__label_login">
+							<span class="authorization__text">E-mail</span>
+							<input type="text" id="register-email" placeholder="petr@brodude.ru" class="input">
+						</label>
+						<label for="register-password" class="authorization__label authorization__label_password">
+							<span class="authorization__text">Пароль</span>
+							<span class="authorization__icon-password authorization__icon-password_hide">
+								<svg class="icon">
+									<use xlink:href="https://brodude.ru/wp-content/themes/brodude2023/assets/img/icons/sprite.svg#i-show-password"></use>
+								</svg>
+							</span>
+							<input type="password" id="register-password" placeholder="••••••••••" class="input">
+						</label>
+						<label class="authorization__label authorization__label_person-data">
+							<p>Я даю согласие на обработку <a href="/privacy/">персональных данных</a></p>
+							<input id="register-acceptance" type="checkbox">
+							<span class="authorization__checkmark"></span>
+						</label>
+						<button  type="button" id="register-submit" class="button authorization__send">Регистрация</button>
+					</form>
+
+					<div id="register-message"></div>
+
+					<div class="authorization__bottom authorization__bottom_right">
+						<button class="authorization__button authorization__button_theme_blue" data-authorization-button>Вход</button>
+					</div>
+				</div>
+				<!--Восстановление пароля-->
+				<div class="authorization" data-recovery-form>
+					<h4 class="title title_size_32 title_wight_bold title_color_131313 authorization__title">
+						Восстановление пароля
+					</h4>
+					<span class="authorizatio__text">
+						Укажи свой E-mail, и мы вышлем тебе новый пароль
+					</span>
+					<form class="authorization__form">
+						<label for="mail" class="authorization__label authorization__label_recovery">
+							<span class="authorization__text">E-mail</span>
+							<input type="text" id="recovery-email" placeholder="my@brodude.ru" class="input">
+						</label>
+						<button  type="button" id="recovery-submit" class="button authorization__send">Восстановить</button>
+					</form>
+					<div id="recovery-message"></div>
+					<div class="authorization__bottom">
+						<button class="authorization__button authorization__button_theme_blue" data-authorization-button>Вход</button>
+						<button class="authorization__button authorization__button_theme_blue" data-register-button>Регистрация</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Yandex.Metrika counter --> 
+<script type="text/javascript" > 
+ if (gps == false) window.addEventListener("scroll",metrika_counter_load);
+ function metrika_counter_load(){
+  window.removeEventListener("scroll",metrika_counter_load);  
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(18524347, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); 
+  console.log('metrika_loaded');
+}
+</script> 
+
+<noscript><div><img src="https://mc.yandex.ru/watch/18524347" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+<!-- /Yandex.Metrika counter -->
+
+<!-- Google tag (gtag.js) -->
+<script>
+   if (gps == false) window.addEventListener("scroll",gtag_counter_load);
+   function gtag_counter_load(){
+    window.removeEventListener("scroll",gtag_counter_load);  
+    includeJs('https://www.googletagmanager.com/gtag/js?id=G-MC23GQ7EXM');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MC23GQ7EXM');
+}
+</script>
+
+<script> 
+        if (gps == false) 
+        {
+            window.addEventListener('scroll',adfox_load_js);
+            window.addEventListener('mousemove',adfox_load_js);
+        }
+        function adfox_load_js(){
+            window.removeEventListener('scroll',adfox_load_js);  
+            window.removeEventListener('mousemove',adfox_load_js); 
+            includeJs('https://yastatic.net/pcode/adfox/loader.js');
+        }
+
+
+        if (gps == false) 
+        {        
+            window.addEventListener('scroll',adfox_load_script);
+            window.addEventListener('mousemove',adfox_load_script);
+        }
+        function adfox_load_script(){
+           if (window.Ya!==undefined && window.Ya.adfoxCode!==undefined)
+           {
+            window.removeEventListener('scroll',adfox_load_script);  
+            window.removeEventListener('mousemove',adfox_load_script);            
+
+            if( document.getElementById('adfox_157527923177656186') ){
+              window.Ya.adfoxCode.create({
+                ownerId: 226986,
+                containerId: 'adfox_157527923177656186',
+                params: {
+                    pp: 'g',
+                    ps: 'btxv',
+                    p2: 'eytc',
+                    pk: 'ставки спорт футбол букмекер тотализатор коэффициент чемпионат лига матч единоборства',
+                    pke: '1'
+                }
+                })
+            }
+
+            /* fullscreen banner */
+            if( document.getElementById('adfox_163834726044953365') ){
+              window.Ya.adfoxCode.create({
+                ownerId: 226986,
+                containerId: 'adfox_163834726044953365',
+                params: {
+                    pp: 'yqu', 
+                    ps: 'btxv', 
+                    p2: 'hiuq' 
+                }
+                })
+            }
+
+            /* /fullscreen banner */
+            if( document.getElementById('adfox_15858429985301496') ){
+              window.Ya.adfoxCode.create({
+                ownerId: 226986,
+                containerId: 'adfox_15858429985301496',
+                params: {
+                    pp: 'yvu',
+                    ps: 'btxv',
+                    p2: 'gtlk'
+                }
+                })
+            }
+
+
+
+            if( document.getElementById('adfox_158625365185135315') ){
+                window.Ya.adfoxCode.create({
+                    ownerId: 226986,
+                    containerId: 'adfox_158625365185135315',
+                    params: {
+                        pp: 'yqu',
+                        ps: 'btxv',
+                        p2: 'gsyx'
+                    }
+                    });
+                }
+
+
+
+                if( document.getElementById('adfox_159680770355572381') ){
+                    var rand = Math.floor(Math.random() * Math.floor(999999999999999))
+                    window.Ya.adfoxCode.create({
+                        ownerId: 226986,
+                        containerId: 'adfox_159680770355572381',
+                        params: {
+                            pp: 'g',
+                            ps: 'btxv',
+                            p2: 'gszn'
+                            },
+                            onRender: function (data) {
+                              console.log('onRender');
+
+                              },
+                              });
+                          }
+                          console.log('adfox_loaded');
+
+
+                      }
+
+                  }
+          </script>
+          <link rel='stylesheet' id='trumbowyg-css' href='https://brodude.ru/wp-content/plugins/BrodudeAjaxComments/public/js/vendor/trumbowyg/dist/ui/trumbowyg.min.css?ver=2.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bro_ajax_comments_editor_css-css' href='https://brodude.ru/wp-content/plugins/BrodudeAjaxComments/public/css/ajax-comments-editor.css?ver=1.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bro_ajax_comments_css-css' href='https://brodude.ru/wp-content/plugins/BrodudeAjaxComments/public/css/ajax-comments.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='preloader-rating-css-css' href='https://brodude.ru/wp-content/plugins/BrodudeAjaxCommentsRating/public/css/bro_ajax_comments_rating.css?ver=1.0.7' type='text/css' media='all' />
+<link rel='stylesheet' id='my_bro_advertising_markt-css' href='https://brodude.ru/wp-content/plugins/BrodudeAdvertStatus/public/css/my_bro_advertising_markt.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bro_text_copy-css' href='https://brodude.ru/wp-content/plugins/BrodudeCopy/public/css/style-text-copy.css?ver=1.0.0' type='text/css' media='all' />
+<script type="text/javascript" src="https://brodude.ru/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.6" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/brodude.ru\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.6" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/dd-links/public/js/dd-links-public.js?ver=1.2.1" id="dd-links-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeProfile/public/js/BroDudeProfile-favorite_add_no_priv.js?ver=1.0.0" id="BroDudeProfile-favorite_add_no_priv-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/themes/brodude2023/assets/js/app.min.js?ver=1715941294" id="brodude-theme-js"></script>
+<script type="text/javascript" id="ajax-auth-script-js-extra">
+/* <![CDATA[ */
+var ajax_auth_object = {"ajaxurl":"https:\/\/brodude.ru\/wp-admin\/admin-ajax.php","nonce":"ba87aab843"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/themes/brodude2023/assets/js/ajax-auth.js" id="ajax-auth-script-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeContentBlocks/public/js/BrodudeContentBlocks-TitleNumbered.js?ver=1.0.0" id="BrodudeContentBlocks-TitleNumbered-js"></script>
+<script type="text/javascript" id="fingerprint2-js-extra">
+/* <![CDATA[ */
+var ViewsCounterNoRaceCondition_counter__vars = {"url":"https:\/\/brodude.ru\/wp-json\/views-counter-no-race-condition\/v1\/counter\/191603","pid":"191603"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeViewsCounterNoRaceCondition/public/js/vendor/fingerprint2/fingerprint2.min.js?ver=2.1.0" id="fingerprint2-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeViewsCounterNoRaceCondition/public/js/vendor/js-cookie/js-cookie.min.js?ver=3.0.0" id="js-cookie-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeViewsCounterNoRaceCondition/public/js/vendor/md5/md5.min.js?ver=1.0.0" id="md5-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeViewsCounterNoRaceCondition/public/js/ViewsCounterNoRaceCondition-counter.js?ver=1.0.0" id="ViewsCounterNoRaceCondition-counter-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeViewsCounterNoRaceCondition/public/js/ViewsCounterNoRaceCondition-show_count.js?ver=1.0.0" id="ViewsCounterNoRaceCondition-show_count-js"></script>
+<script defer type="text/javascript" src="https://brodude.ru/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1695056492" id="akismet-frontend-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeAjaxComments/public/js/vendor/trumbowyg/dist/trumbowyg.min.js?ver=2.8.1" id="trumbowyg-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeAjaxComments/public/js/vendor/trumbowyg/dist/langs/ru.min.js?ver=1.1.4" id="trumbowyg_ru-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeAjaxComments/public/js/vendor/sisyphus/sisyphus.min.js?ver=2.1.5" id="bro_ajax_comments_save_in_local_storage-js"></script>
+<script type="text/javascript" id="bro_ajax_comments_js-js-extra">
+/* <![CDATA[ */
+var bro_ajax_comments_data = {"form_action":"https:\/\/brodude.ru\/wp-admin\/admin-ajax.php?action=bro_ajax_comment"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeAjaxComments/public/js/ajax-comments.min.js?ver=2.1.5" id="bro_ajax_comments_js-js"></script>
+<script type="text/javascript" src="https://brodude.ru/wp-content/plugins/BrodudeAjaxComments/public/js/editor.js?ver=1.1.4" id="bro_ajax_comments_editor-js"></script>
+<script type='text/javascript'>                window.yaParams= {
+                    author_name : 'Теодор Седин',
+                    author_id : 206768,
+                    author : {
+                      name: 'Теодор Седин',
+                      id: 206768
+                    }
+                };</script><script>window.lazyLoadOptions = {
+                elements_selector: "img[data-lazy-src],.rocket-lazyload",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }};
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                return;
+                            }
+
+                           if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                return;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+
+                observer.observe(b, config);
+            }
+        }, false);</script><script data-no-minify="1" async src="https://brodude.ru/wp-content/plugins/rocket-lazy-load/assets/js/16.1/lazyload.min.js"></script></body>
+
+</html><!-- WP Fastest Cache file was created in 0.11507821083069 seconds, on 22-06-24 23:53:37 --><!-- via php -->

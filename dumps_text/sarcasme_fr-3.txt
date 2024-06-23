@@ -1,0 +1,351 @@
+   #LEBIGDATA.FR » Flux LEBIGDATA.FR » Flux des commentaires alternate
+   alternate alternate
+
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-M66N7CM
+
+   (Rechercher) Rechercher__________
+
+     * Définitions
+          + Définition Big Data
+          + Lexique Big Data
+          + Définition Cognitive computing
+          + Définition Cloud Analytics
+          + Définiton Cloud Computing
+               o Définition DaaS
+               o Définition IaaS
+               o Définition PaaS
+               o Définition SaaS
+               o Définition XaaS
+          + Définition Data Analytics
+          + Définition Data Center
+          + Définition Data Lake
+          + Définition Deep learning
+          + Définition Data Mining
+          + Définition EMM
+          + Définition Mobile Information Management
+          + Définition Cloud Native
+          + Définition Data Science
+          + Définition Open Data
+          + Définition Smart Data
+          + Définition SOC
+     * Comparatifs
+          + Comparatif cloud gratuit & stockage en ligne
+          + Comparatif Serveurs dédiés
+
+   (Rechercher) Rechercher__________
+   LEBIGDATA.FR LEBIGDATA.FR LEBIGDATA.FR I.A, Cloud & Cybersécurité
+
+     * Business
+          + Argent
+          + Quantique
+          + 5G
+          + Data Center
+          + Energie
+          + Finance
+          + Industrie
+          + Internet des objets
+          + Juridique
+          + Marketing
+          + Média
+          + Santé
+          + Smartphone
+          + Blockchain
+               o Portefeuille crypto
+          + Startups Big Data
+          + Etudes
+          + Infographies
+          + Interviews
+          + NFT
+          + NordVPN
+          + Livres blancs
+          + Hébergement web
+          + Logiciel de gestion de projet
+     * Analytics
+          + Business Intelligence
+          + Data Analytics
+          + Dataviz
+          + Social Media Analytics
+     * Cloud
+          + Data Center
+          + Cloud computing
+               o Cloud privé
+               o Cloud public
+               o IaaS
+               o PaaS
+               o SaaS
+          + Amazon
+          + Apple
+          + Dropbox
+          + Google
+          + IBM
+          + InterCloud
+          + Microsoft
+          + Oracle
+          + pCloud
+          + Salesforce
+     * Stockage
+     * Cybersécurité
+          + Antivirus
+          + Gestionnaire de mots de passe
+          + RGPD
+          + VPN
+     * I.A
+     * Métiers
+          + Formation
+          + Architecte Big Data
+          + Business Intelligence Manager
+          + Chief Data Officer (CDO)
+          + Data Analyst
+          + Data Miner
+          + Data Steward
+          + Data Protection Officer
+          + Data Scientist et Chief Data Scientist
+          + Ingénieur Big Data
+          + Master Data Manager
+          + Machine Learning Engineer
+     * Digital
+          + Marketing
+          + Téléphonie
+          + SaaS
+     * Jeux vidéo
+     * Science
+     * La fusée
+          + Claranet
+          + Innodisk
+          + Toucan Toco
+          + MYPE
+
+   sarcasme sarcasme
+
+Vous ne comprenez rien au sarcasme ? Ces chercheurs ont créé un détecteur IA
+
+   Nirina R. 17 mai 2024 2 minutes de lecture IA générative, Intelligence
+   artificielle
+
+   Le sarcasme, un élément subtil de la communication humaine, a longtemps
+   échappé à la compréhension des machines. Mais cela pourrait changer
+   grâce à une équipe de chercheurs néerlandais qui a développé un
+   détecteur de sarcasme basé sur l'intelligence artificielle.
+
+   Le sarcasme, souvent vu comme une forme d'esprit complexe et une
+   intelligence élevée, reste difficile à saisir pour les machines. « Nous
+   sommes capables de reconnaître le sarcasme de manière fiable, et nous
+   sommes impatients de développer cela, » a partagé Matt Coler, un
+   chercheur impliqué dans le projet.
+
+   Pour que les IA puissent interagir de manière plus naturelle, elles
+   doivent pouvoir comprendre non seulement les mots littéraux mais aussi
+   les intentions cachées derrière les paroles.
+
+   Le sarcasme n'est pas simplement un jeu de mots. Il engage le ton, le
+   contexte, et souvent, l'expression faciale.
+
+   En ce sens, pour qu'une IA détecte efficacement le sarcasme, elle doit
+   analyser un ensemble complexe de données. Afin que cela soit possible,
+   les chercheurs ont utilisé des extraits de dialogues de séries
+   télévisées bien connues, où le sarcasme est fréquent.
+
+   IFRAME: https://www.youtube.com/embed/Y--8kVa_Y1w?feature=oembed
+
+Le fonctionnement du détecteur de sarcasme
+
+   Pour développer ce détecteur, l'équipe a utilisé une base de données
+   nommée Mustard, qui comprend des phrases annotées pour le sarcasme
+   issues de sitcoms comme « Friends » et « The Big Bang Theory ».
+
+   Certe, le texte seul offre des indices, mais les chercheurs ont
+   également intégré des analyses audio et vidéo pour capter le ton et les
+   expressions faciales qui accompagnent souvent le sarcasme.
+
+   L'une des scènes clés sur lesquelles l'IA a été formée implique un
+   personnage tentant de sortir d'une pièce verrouillée. Pendant ce temps,
+   un autre commente sarcastiquement : « C'est juste un privilège de
+   regarder votre esprit au travail. »
+
+   De la même façon que les humains utilisent le sarcasme dans des
+   interactions quotidiennes, l'IA apprend à reconnaître ces nuances.
+
+Évolution de l'IA : amélioration des interactions et détection du discours
+négatif
+
+   L'impact de cette innovation va au-delà de la simple facilitation des
+   dialogues avec les assistants vocaux.
+
+   Shekhar Nayak, un autre chercheur du projet, a ajouté que « En plus de
+   rendre les conversations avec les assistants IA plus fluides, cette
+   approche pourrait être utilisée pour détecter les tons négatifs dans le
+   langage. » Cela pourrait, par exemple, aider à combattre les discours
+   haineux en ligne.
+
+   Les chercheurs envisagent d'améliorer la précision de l'IA en intégrant
+   des indices visuels tels que les expressions faciales et les mouvements
+   des sourcils. « Allons-nous avoir une machine précise à 100 % ? »
+   s'interroge Xiyuan Gao.
+
+   Quel que soit le niveau de précision atteint, le fait que l'IA puisse
+   comprendre et réagir au sarcasme est un grand pas en avant.
+
+   Ce progrès pose cependant des questions intéressantes sur l'avenir de
+   la communication entre l'homme et la machine. Sous prétexte d'améliorer
+   l'interaction, on pourrait se demander jusqu'où ces technologies vont
+   évoluer.
+
+   Comme l'explique Matt Coler, si une IA devient trop bonne pour détecter
+   le sarcasme, cela pourrait modifier la façon dont nous interagissons
+   avec elle.
+
+   Sans doute, l'IA a réalisé des progrès impressionnants. Toutefois, à ma
+   connaissance, elle peine à saisir le sarcasme. Pensez-vous que cette
+   nouvelle IA peut vraiment identifier le sarcasme aussi bien que les
+   humains ? N'hésitez pas à partager vos opinions !
+
+   Restez à la pointe de l'information avec LEBIGDATA.FR !
+
+   Abonnez-vous à notre chaîne YouTube et rejoignez-nous sur Google
+   Actualités pour garder une longueur d'avance.
+   Partager l'article :
+     * Facebook
+     * Twitter
+     * LinkedIn
+
+   Notre blog est alimenté par les lecteurs. Lorsque vous achetez via des
+   liens sur notre site, nous pouvons percevoir une commission
+   d’affiliation.
+   2024-05-17
+   Nirina R.
+
+Sur le même sujet
+
+   robot kung fu robot kung fu
+
+Ce robot peut apprendre le Kung-Fu ou le piano… juste en vous regardant !
+
+   19 juin 2024
+
+V2A par DeepMind : Quand l’IA met le son dans l’image
+
+   19 juin 2024
+   midjourney ia tout savoir midjourney ia tout savoir
+
+MidJourney : tout savoir sur l’IA qui choque les artistes et transforme vos
+textes en dessins
+
+   18 juin 2024
+
+Newsletter
+
+   Envie de ne louper aucun de nos articles ? Abonnez vous pour recevoir
+   chaque semaine les meilleurs actualités avant tout le monde.
+   Email _
+   (BUTTON) Je m'abonne
+   Cliquez pour commenter
+
+Laisser un commentaire
+
+   Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont
+   indiqués avec *
+
+   Commentaire *
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+   _____________________________________________
+
+   Nom * ______________________________
+
+   E-mail * ______________________________
+
+   Laisser un commentaire
+
+Dernières news
+
+     * Autoentrepreneur Formation personnalisée Autoentrepreneur Formation
+       personnalisée
+    Les nouveaux horizons du digital, des opportunités accessibles sans
+       prérequis 19 juin 2024
+     * Meta Meta
+    Données personnelles : ce sinistre projet de Meta tombe à l’eau ! 19
+       juin 2024
+     * 2FA 2FA
+    On a un GROS problème : les hackers ont déjoué le 2FA
+       (authentification à 2 facteurs) 19 juin 2024
+
+Tendances
+
+     * Meilleur cloud
+     * VPN
+     * Meilleur VPN
+     * iCloud prix
+     * Nordvpn
+     * Surfshark
+     * Malware
+     * Meilleur antivirus
+     * NFT crypto
+     * Cloud
+
+   Accueil > Intelligence artificielle > Vous ne comprenez rien au
+   sarcasme ? Ces chercheurs ont créé un détecteur IA
+
+Groupe Publithings
+
+     * INTELLIGENCE-ARTIFICIELLE.COM
+     * REALITE-VIRTUELLE.COM
+     * TECHNPLAY.COM
+     * OBJETCONNECTE.COM
+     * EVENEMENT.COM
+     * SUPPLY-CHAIN.NET
+     * TEAM-BUILDING.NET
+     * ANIMATION-VR.COM
+     * SIMULATEUR-VR.COM
+     * ANIMATIONS-INNOVANTES.COM
+     * ANIMATION-ROBOT.COM
+     * DEVELOPPEMENT-PERSONNEL.COM
+     * REDACTEUR.ORG
+
+Partenaires
+
+     * GUIDERENOVATION.FR - Le guide ultime pour la rénovation de votre
+       habitat
+     * GUIDEDESPRIX.NET - Votre guide des prix travaux et rénovation
+     * APPEL-DOFFRE.COM - Appels d'offres privés travaux et chantiers
+
+Top articles
+
+     * Whatsapp web
+     * Doctolib
+     * Zimbra
+     * Google drive
+     * iCloud
+     * Heygen
+     * NordVPN
+     * Midjourney
+     * ChatGPT
+     * OpenAI
+
+Comparo / Test / Top
+
+     * pCloud avis
+     * Cloud Gratuit
+     * iCloud prix
+     * Meilleur cloud
+     * VPN Gratuit
+     * Meilleur VPN
+     * VPN gratuit PC
+     * Meilleur répéteur wifi
+     * Antivirus gratuit
+     * Meilleur antivirus
+
+     * Mentions légales
+     * Qui sommes-nous?
+     * CGU
+     * Politique de confidentialité
+     * Politique de cookies
+     * Contact partenaireFAQ
+     * Sitemap
+     * Contact
+
+     Copyright © 2024 Groupe Publithings. Tous droits réservés.

@@ -1,0 +1,134 @@
+    #Sciencepost » Flux Sciencepost » Flux des commentaires alternate
+   alternate alternate
+
+   Sciencepost
+
+     * Sciences
+     * Technologie
+     * Planète
+     * Espace
+     * Histoire
+     * Santé
+     * Société
+     * Insolite
+     * Mystère
+
+   Search
+   Search for: ____________________ (BUTTON) Search
+   Menu
+
+   Sciencepost
+   (BUTTON) Switch skin
+
+   Passez au mode sombre qui est plus doux pour vos yeux la nuit.
+
+   Passez au mode d'éclairage qui est plus doux pour vos yeux durant la
+   journée.
+   Search
+   Search for: ____________________ (BUTTON) Search
+   [INS: :INS]
+
+Ils mettent au point un détecteur de sarcasme sur les réseaux sociaux !
+
+   par Yohan Demeure, expert géographe 19 mai 2021, 13 h 09 min
+   femme moqueuse
+   Crédits : Deagreez / iStock
+
+   Dernièrement, des chercheurs étasuniens ont dévoilé un détecteur de
+   sarcasme à destination des réseaux sociaux. Un jour peut-être, ce genre
+   de travaux pourraient être à l’origine d’une véritable révolution
+   concernant la stratégie de modération des différentes plateformes.
+   [INS: :INS]
+
+Identifier des mots repères sarcastiques
+
+   Le sarcasme est une moquerie ironique que l’on peut parfois considérer
+   comme une forme d’ironie « piquante » ou belliqueuse. À l’inverse de
+   l’ironie qui implique de dire le contraire de ce que l’on pense en
+   faisant comprendre que l’on pense le contraire de ce que l’on dit, le
+   sarcasme va un peu plus loin. En effet, il s’agit de dire le contraire
+   de ce que l’on pense, sans montrer qu’on pense le contraire de ce que
+   l’on dit. Ainsi, lorsqu’une personne tient des propos sarcastiques, il
+   n’est pas toujours évident de le déceler. Face à face, il est possible
+   d’observer certains gestes ou expressions faciales pouvant
+   éventuellement trahir l’interlocuteur en question. En revanche,
+   lorsqu’il s’agit d’un commentaire sur les réseaux sociaux, repérer le
+   sarcasme devient bien plus difficile.
+
+   Dans une étude publiée dans la revue Entropy le 26 mars 2021, un duo de
+   chercheurs de l’Université de Floride centrale (États-Unis) explique
+   avoir mis au point leur propre détecteur de sarcasme. Ce dernier se
+   destine à un usage sur les réseaux sociaux. Les chercheurs ont indiqué
+   avoir utilisé le deep learning pour mettre au point un système capable
+   d’identifier des « mots repères » sarcastiques et d’analyser les
+   dépendances entre ces mots afin de qualifier (ou non) le commentaire de
+   sarcastique.
+   fille smartphone Crédits : PR Fundsachen / Flickr
+
+Un outil pouvant intéresser les réseaux sociaux
+
+   Ainsi, l’outil que les chercheurs ont élaboré peut faire la distinction
+   entre des moqueries ironiques et un véritable discours de haine. Les
+   auteurs de l’étude n’ont pas communiqué leur taux de réussite, mais
+   selon eux les résultats sont plutôt convaincants. Évidemment,
+   l’intelligence artificielle a encore du travail pour arriver au niveau
+   humain (modérateurs) en ce qui concerne le repérage du sarcasme en
+   ligne. Toutefois, si l’IA atteint un jour un très haut niveau de
+   performance, nul doute que les grands réseaux sociaux s’intéresseront �
+   ce type de recherches.
+
+   Les chercheurs de l’Université de Floride centrale ne sont pas les
+   seuls à avoir mené ce genre de travaux. En novembre 2020, des
+   scientifiques de l’Académie des Sciences de Pékin (Chine) ont élaboré
+   un système s’appuyant sur les données de Twitter. L’IA en question
+   prend en compte les hashtags présents dans les commentaires afin de
+   mieux cerner l’état d’esprit de l’internaute. Or, ce modèle aurait un
+   taux de réussite de 83 % !
+
+En continu
+
+     * Combien de temps faudrait-il pour atteindre la planète 9 ?
+     * En France, 56% des espèces menacées ne sont pas protégées
+     * Où est le centre de l’Univers ?
+     * Cancer du poumon : ces microrobots pourraient en révolutionner le
+       traitement
+     * Il serait possible de détecter les problèmes d’un vaisseau spatial
+       extraterrestre
+
+   À propos
+
+   L’équipe
+
+   Mentions légales
+
+   Contact
+
+   Publicité
+
+   RSS
+
+   Magazine de vulgarisation scientifique, Sciencepost vous dévoile chaque
+   jour les dernières découvertes et avancées en terme de sciences et
+   nouvelles technologies.
+
+Suivez-nous sur Facebook
+
+     Sciencepost
+
+   Back to Top
+
+   publicite
+
+   Close
+
+     * Sciences
+     * Technologie
+     * Planète
+     * Espace
+     * Histoire
+     * Santé
+     * Société
+     * Insolite
+     * Mystère
+
+   Search for: ____________________ (BUTTON) Search
